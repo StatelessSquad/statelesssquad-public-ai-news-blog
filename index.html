@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Daily</title>
+<meta name="description" content="The day's AI news in five minutes: model releases, research, products and policy, gathered every morning by StateLess Squad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Literata:opsz,wght@7..72,400;7..72,500&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315161a'/%3E%3Ccircle cx='46' cy='18' r='7' fill='%232f4bff'/%3E%3Cpath d='M14 46h26M14 36h34M14 26h20' stroke='%23f5f5f1' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<meta property="og:title" content="AI Daily by StateLess Squad">
+<meta property="og:description" content="The day's AI news in five minutes, every morning.">
+<meta name="theme-color" content="#15161a">
+<style>
+/* Layout: a morning newswire. The day's lead story big, the rest as a single readable column, the archive as a rail
+   (a strip on phones). No build step: this page reads news/index.yaml and news/<date>.yaml in the browser. */
+:root {
+  --paper: #f5f5f1;
+  --sheet: #ffffff;
+  --ink: #15161a;
+  --soft: #5d6070;
+  --rule: #dfe0e6;
+  --signal: #2f4bff;          /* the one accent: links, the live dot, the selected day */
+  --k-model: #2f4bff;
+  --k-research: #0f8a6a;
+  --k-product: #b4561a;
+  --k-industry: #6b6f80;
+  --k-safety: #c42b4a;
+  --k-policy: #7a3fd0;
+  --head: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --read: "Literata", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e0f12; --sheet: #16171c; --ink: #eceef5; --soft: #9a9eb2; --rule: #272935; --signal: #7d90ff;
+    --k-model: #7d90ff; --k-research: #43c99f; --k-product: #f0965a; --k-industry: #a3a7b8; --k-safety: #ff6b86; --k-policy: #b691ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0e0f12; --sheet: #16171c; --ink: #eceef5; --soft: #9a9eb2; --rule: #272935; --signal: #7d90ff;
+  --k-model: #7d90ff; --k-research: #43c99f; --k-product: #f0965a; --k-industry: #a3a7b8; --k-safety: #ff6b86; --k-policy: #b691ff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 17px/1.6 var(--read); }
+a { color: inherit; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 0 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.mast { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; border-bottom: 2px solid var(--ink); }
+.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.brand b { font: 800 26px/1 var(--head); letter-spacing: -.02em; }
+.brand span { font: 500 12px/1 var(--mono); color: var(--soft); letter-spacing: .06em; text-transform: uppercase; }
+.live { display: inline-flex; align-items: center; gap: 8px; font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+.live i { width: 8px; height: 8px; border-radius: 50%; background: var(--signal); box-shadow: 0 0 0 4px color-mix(in srgb, var(--signal) 22%, transparent); }
+.theme { display: inline-grid; place-items: center; background: transparent; color: var(--ink); border: 1px solid var(--rule); border-radius: 999px; width: 34px; height: 34px; cursor: pointer; }
+@media (max-width: 520px) { .live span, .brand span { display: none; } .brand b { font-size: 24px; } }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 48px; padding-top: 28px; }
+@media (max-width: 880px) { .layout { grid-template-columns: minmax(0, 1fr); gap: 20px; padding-top: 16px; } }
+main { min-width: 0; }
+.dateline { font: 600 12px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--soft); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.lead { padding-block: 14px 26px; border-bottom: 1px solid var(--rule); }
+.lead h1 { font: 800 clamp(30px, 4.6vw, 52px)/1.04 var(--head); letter-spacing: -.025em; margin: 12px 0 12px; text-wrap: balance; }
+.lead h1 a { text-decoration: none; }
+.lead h1 a:hover { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; }
+.lead p { font-size: 19px; color: var(--ink); max-width: 64ch; margin: 0 0 10px; }
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-block: 18px; }
+.chip { font: 600 12px/1 var(--mono); letter-spacing: .04em; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 999px; padding: 8px 11px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center; }
+.chip i { width: 8px; height: 8px; border-radius: 50%; }
+.chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+.search { flex: 1 1 180px; min-width: 0; font: 15px/1 var(--head); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 999px; padding: 9px 14px; }
+.story { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 0 12px; padding-block: 18px; border-bottom: 1px solid var(--rule); }
+.story .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 10px; }
+.story h2 { font: 700 22px/1.2 var(--head); letter-spacing: -.01em; margin: 0 0 6px; text-wrap: balance; }
+.story h2 a { text-decoration: none; }
+.story h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.story p { margin: 0 0 8px; max-width: 68ch; color: var(--ink); }
+.meta { font: 500 12px/1.4 var(--mono); color: var(--soft); display: flex; flex-wrap: wrap; gap: 4px 12px; letter-spacing: .02em; }
+.meta .kind { text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
+.meta a { color: var(--signal); text-decoration: none; }
+.meta a:hover { text-decoration: underline; }
+.empty { padding: 28px 0; color: var(--soft); font-style: italic; }
+aside { min-width: 0; }
+.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); }
+.rail h3 { font: 600 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--soft); margin: 0 0 12px; }
+.days { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.days button { width: 100%; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; text-align: left; background: transparent; border: 0; border-left: 3px solid transparent; padding: 9px 10px; font: 600 15px/1.2 var(--head); color: var(--ink); cursor: pointer; border-radius: 0 8px 8px 0; }
+.days button small { font: 500 12px/1 var(--mono); color: var(--soft); }
+.days button[aria-current="true"] { border-left-color: var(--signal); background: var(--sheet); }
+.days button:hover { background: var(--sheet); }
+@media (max-width: 880px) {
+  aside { order: -1; }
+  .rail { position: static; }
+  .rail h3 { display: none; }
+  .days { display: flex; overflow-x: auto; gap: 6px; padding-bottom: 4px; }
+  .days li { flex: 0 0 auto; }
+  .days button { border: 1px solid var(--rule); border-radius: 999px; padding: 8px 12px; background: var(--sheet); }
+  .days button[aria-current="true"] { border-color: var(--signal); }
+}
+footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--rule); font: 500 13px/1.6 var(--mono); color: var(--soft); display: grid; gap: 6px; }
+footer a { color: var(--signal); }
+:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+@media (prefers-reduced-motion: no-preference) { .story { animation: rise .35s ease both; } @keyframes rise { from { transform: translateY(6px); opacity: .001; } } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="mast">
+    <a class="brand" href="./"><b>AI Daily</b><span>by StateLess Squad</span></a>
+    <div style="display:flex;gap:12px;align-items:center">
+      <span class="live"><i></i><span id="updated">Every morning</span></span>
+      <button class="theme" id="theme" type="button" aria-label="Switch light or dark"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main id="issue" aria-live="polite">
+      <div class="empty">Loading today's issue…</div>
+    </main>
+    <aside aria-label="Past issues">
+      <div class="rail">
+        <h3>Issues</h3>
+        <ul class="days" id="days"></ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <span>Gathered every morning by the StateLess Squad bot from public reporting. Every headline links to its source.</span>
+    <span>Each day is one YAML file in <a href="https://github.com/StatelessSquad/statelesssquad-public-ai-news-blog/tree/main/news">news/</a>; this page reads them as they land. Informational only.</span>
+  </footer>
+</div>
+
+<script src="vendor/js-yaml.min.js"></script>
+<script>
+(() => {
+  const KINDS = { model: 'Model', research: 'Research', product: 'Product', industry: 'Industry', safety: 'Safety', policy: 'Policy' };
+  const $issue = document.getElementById('issue');
+  const $days = document.getElementById('days');
+  let issues = [];
+  let current = null;
+  let filter = 'all';
+  let query = '';
+  const cache = new Map();
+
+  // theme: follow the system, remember an explicit choice
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('aidaily-theme'); if (t) root.dataset.theme = t; } catch {}
+  document.getElementById('theme').onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('aidaily-theme', root.dataset.theme); } catch {}
+  };
+
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const safeUrl = (u) => (/^https:\/\//.test(String(u)) ? String(u) : '#');
+  const longDate = (d) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const shortDate = (d) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+  // new files must show at once after a commit, so skip the browser cache
+  const load = (path) => fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.text(); }).then((t) => jsyaml.load(t, { schema: jsyaml.CORE_SCHEMA })); // CORE: dates stay text, never Date objects
+
+  async function day(date) {
+    if (!cache.has(date)) cache.set(date, await load(`news/${date}.yaml`));
+    return cache.get(date);
+  }
+
+  function renderDays() {
+    $days.innerHTML = issues.map((i) => `<li><button type="button" data-date="${esc(i.date)}" aria-current="${i.date === current}">${esc(shortDate(i.date))}<small>${esc(i.count)} stories</small></button></li>`).join('');
+    $days.querySelectorAll('button').forEach((b) => (b.onclick = () => show(b.dataset.date, true)));
+  }
+
+  function storyHtml(s) {
+    const k = KINDS[s.kind] ? s.kind : 'industry';
+    return `<article class="story" data-kind="${k}">
+      <span class="dot" style="background:var(--k-${k})" aria-hidden="true"></span>
+      <div><h2><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.title)}</a></h2>
+      <p>${esc(s.summary)}</p>
+      <div class="meta"><span class="kind" style="color:var(--k-${k})">${KINDS[k]}</span><span>${esc(s.source)}</span><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">Read the source ↗</a></div></div>
+    </article>`;
+  }
+
+  async function show(date, push) {
+    current = date;
+    renderDays();
+    let d;
+    try { d = await day(date); } catch (e) { $issue.innerHTML = `<div class="empty">This issue could not be loaded (${esc(e.message)}).</div>`; return; }
+    if (push) history.replaceState(null, '', `#${date}`);
+    const items = Array.isArray(d.items) ? d.items : [];
+    const [lead, ...rest] = items;
+    const kinds = [...new Set(items.map((s) => (KINDS[s.kind] ? s.kind : 'industry')))];
+    const chips = ['all', ...kinds].map((k) => `<button class="chip" type="button" data-k="${k}" aria-pressed="${filter === k}">${k === 'all' ? 'All' : `<i style="background:var(--k-${k})"></i>${KINDS[k]}`}</button>`).join('');
+    $issue.innerHTML = `
+      <section class="lead">
+        <div class="dateline"><span>${esc(longDate(d.date))}</span><span>${items.length} stories</span>${lead ? `<span style="color:var(--k-${KINDS[lead.kind] ? lead.kind : 'industry'})">${KINDS[lead.kind] ?? 'Industry'}</span>` : ''}</div>
+        ${lead ? `<h1><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener">${esc(lead.title)}</a></h1><p>${esc(lead.summary)}</p><div class="meta"><span>${esc(lead.source)}</span><a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener">Read the source ↗</a></div>` : '<p>No stories this day.</p>'}
+      </section>
+      <div class="tools" role="toolbar" aria-label="Filter stories">${chips}<input class="search" id="q" type="search" placeholder="Search this issue" value="${esc(query)}" aria-label="Search this issue"></div>
+      <div id="list">${rest.map(storyHtml).join('')}</div>`;
+    $issue.querySelectorAll('.chip').forEach((c) => (c.onclick = () => { filter = c.dataset.k; show(current); }));
+    const q = document.getElementById('q');
+    q.oninput = () => { query = q.value; applyFilter(); };
+    applyFilter();
+  }
+
+  function applyFilter() {
+    const needle = query.trim().toLowerCase();
+    let shown = 0;
+    document.querySelectorAll('#list .story').forEach((el) => {
+      const ok = (filter === 'all' || el.dataset.kind === filter) && (!needle || el.textContent.toLowerCase().includes(needle));
+      el.hidden = !ok;
+      if (ok) shown++;
+    });
+    const list = document.getElementById('list');
+    list.querySelector('.empty')?.remove();
+    if (!shown) list.insertAdjacentHTML('beforeend', '<div class="empty">Nothing here matches. Try another filter.</div>');
+  }
+
+  load('news/index.yaml')
+    .then((idx) => {
+      issues = (idx.issues || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+      if (!issues.length) { $issue.innerHTML = '<div class="empty">The first issue lands tomorrow morning.</div>'; return; }
+      document.getElementById('updated').textContent = `Updated ${shortDate(issues[0].date)}`;
+      const wanted = location.hash.slice(1);
+      show(issues.some((i) => i.date === wanted) ? wanted : issues[0].date, false);
+    })
+    .catch((e) => { $issue.innerHTML = `<div class="empty">The issues could not be loaded (${esc(e.message)}).</div>`; });
+})();
+</script>
+
+</body>
+</html>

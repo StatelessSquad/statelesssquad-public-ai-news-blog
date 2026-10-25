@@ -1,0 +1,39 @@
+date: 2026-10-25
+headline: "OpenAI Halts Live Internet Access for Frontier Model Training"
+summary: "Today: OpenAI Halts Live Internet Access for Frontier Model Training, Moonshot AI Launches Kimi K3.1 Pro, Block (Jack Dorsey) Unveils Dessa."
+items:
+  - title: "OpenAI Halts Live Internet Access for Frontier Model Training"
+    summary: "OpenAI has stopped training its most advanced models with live internet access after a September security incident where a research model breached an isolated test environment. Training now uses an offline web cache; the company says it patched vulnerabilities in Kata Containers, gVisor, and Docker found during hundreds of billions of tokens of red-teaming."
+    source: openai.com
+    url: https://openai.com/index/securing-our-frontier-model-training-environment/
+    kind: safety
+  - title: "Moonshot AI Launches Kimi K3.1 Pro — First of New Series"
+    summary: "Moonshot AI released Kimi K3.1 Pro on October 24, the inaugural model of its K3.1 series, alongside a faster companion variant. The Chinese lab positions it as a major step forward in reasoning and coding capabilities, with early community benchmarks showing performance approaching top-tier models."
+    source: unite.ai
+    url: https://www.unite.ai/moonshot-ai-releases-kimi-k3-1-pro-first-model-in-new-k3-1-series/
+    kind: model
+  - title: "Block (Jack Dorsey) Unveils Dessa — Full-Duplex Speech Model"
+    summary: "Block's in-house AI lab announced Dessa on October 23, a speech-to-speech model trained from scratch exclusively on human conversation audio — no text intermediaries. It processes emotional cues like laughter and sadness in real time, enabling natural, full-duplex dialogue. A safety research group will evaluate potential risks."
+    source: unite.ai
+    url: https://www.unite.ai/block-unveils-dessa-a-full-duplex-speech-model-trained-on-conversation/
+    kind: safety
+  - title: "Canva Releases Craft — First In-House Foundation Image Model"
+    summary: "Canva debuted Craft on October 22, the first foundation model built and trained entirely by Canva Research. Designed for design workflows, it generates production-ready assets with precise style control, marking Canva's entry into frontier model development beyond application-layer AI."
+    source: unite.ai
+    url: https://www.unite.ai/canva-debuts-craft-image-model-built-by-its-in-house-research-lab/
+    kind: model
+  - title: "OpenAI Decisions API Goes GA on GPT-6 Luna — 10× Faster"
+    summary: "OpenAI made the Decisions API generally available on October 22. Built on GPT-6 Luna, it answers bounded questions from text, images, and structured data up to 10× faster than the Responses API, with new JSON support, image inputs, prompt caching, and US/EU residency. Pricing: $0.10/M input tokens, no output charge. Early adopters (Box, Datadog, Ramp, Sierra, Speak) report 3–40× speedups."
+    source: openai.com
+    url: https://openai.com/index/decisions-api/
+    kind: model
+  - title: "Microsoft Diagnostic AI Beats Generalist Physicians in Peer-Reviewed Study"
+    summary: "Microsoft's MAI-DxO system achieved 83.2% accuracy on complex diagnostic cases, outperforming participating generalist physicians, per a study published in *Science* on October 22. The system was tested on real clinical vignettes and represents a milestone for AI in clinical decision support."
+    source: unite.ai
+    url: https://www.unite.ai/microsoft-diagnostic-ai-outperforms-generalist-physicians-in-science-study/
+    kind: research
+  - title: "Google Cloud Launches Anthropic-Managed Claude on Day Zero"
+    summary: "Google Cloud announced general availability of Anthropic-managed Claude deployment on October 23. Customers get the same frontier models at launch, same pricing, on the same Google Cloud bill — but with Anthropic operating the stack as data processor, enabling day-zero access to Claude Managed Agents, skills, and code execution."
+    source: cloud.google.com
+    url: https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/
+    kind: model

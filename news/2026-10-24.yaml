@@ -1,0 +1,39 @@
+date: 2026-10-24
+headline: "1. 🧠 Anthropic Secures Massive TPU Deal with Google"
+summary: "Today: 1. 🧠 Anthropic Secures Massive TPU Deal with Google, 2. 🖥️ OpenAI Acquires Software Applications Inc. for Desktop Automation, 3. 🎬 Lightricks Launches LTX-2."
+items:
+  - title: "1. 🧠 Anthropic Secures Massive TPU Deal with Google"
+    summary: "Anthropic announced a multi-billion dollar partnership with Google Cloud to access up to 1 million Tensor Processing Units (TPUs), delivering over 1 gigawatt of compute capacity by 2026. This makes Google Anthropic's largest infrastructure provider and a major investor with $3B committed."
+    source: ekamoira.com
+    url: https://www.ekamoira.com/blog/ai-news-digest-october-24-2025
+    kind: safety
+  - title: "2. 🖥️ OpenAI Acquires Software Applications Inc. for Desktop Automation"
+    summary: "OpenAI acquired the 12-person startup founded by ex-Apple engineers who built iPhone Shortcuts. Their Mac desktop AI interface technology (codenamed \"Sky\") will integrate directly into ChatGPT to enhance computer-based task handling."
+    source: radicaldatascience.wordpress.com
+    url: https://radicaldatascience.wordpress.com/2025/10/
+    kind: model
+  - title: "3. 🎬 Lightricks Launches LTX-2: Open-Source 4K AI Video Model"
+    summary: "LTX-2 delivers native 4K video generation with synchronized audio and up to 15-second outputs. The model is fully open-source, positioning it as a major competitor in the AI video generation space alongside Sora and Runway."
+    source: enoumen.substack.com
+    url: https://enoumen.substack.com/p/ai-daily-news-rundown-copilots-personality
+    kind: model
+  - title: "4. 🤖 Microsoft Unveils \"Mico\" — Animated Copilot Avatar"
+    summary: "Microsoft introduced Mico, a customizable animated blob character that serves as Copilot's visual identity. It reacts to conversations by changing colors during voice interactions, drawing immediate comparisons to the infamous Clippy."
+    source: enoumen.substack.com
+    url: https://enoumen.substack.com/p/ai-daily-news-rundown-copilots-personality
+    kind: product
+  - title: "5. 🔬 OpenAI Deploys Thousands of AI Agents for Neuroscience Breakthrough"
+    summary: "OpenAI partnered with research institutions to deploy thousands of AI agents that analyzed millions of mouse brain cells in 32 minutes — work equivalent to months of human analysis. This demonstrates AI's accelerating role in scientific discovery."
+    source: capitalfutures.com.tw
+    url: https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26102400152
+    kind: research
+  - title: "6. 🎥 ByteDance Volcano Engine Releases Seedance 2.5 4K Model"
+    summary: "The new Seedance 2.5 model targets cinematic-quality 4K video generation for film and TV production, marking ByteDance's push into professional-grade AI video tools."
+    source: capitalfutures.com.tw
+    url: https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26102400152
+    kind: model
+  - title: "7. 🛡️ UK Invests £600M in AI Safety Against Biological Threats"
+    summary: "The UK government committed £600 million to AI safety infrastructure, specifically targeting emerging biological risks. This represents one of the largest sovereign investments in AI safety to date."
+    source: capitalfutures.com.tw
+    url: https://www.capitalfutures.com.tw/zh-tw/financial/breakingnewsarticle?contentid=c26102400152
+    kind: safety
