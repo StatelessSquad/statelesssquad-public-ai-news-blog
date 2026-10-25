@@ -1,6 +1,6 @@
 # AI Daily
 
-The day's AI news in five minutes, by StateLess Squad: https://statelesssquad.github.io/statelesssquad-public-ai-news-blog/
+The day's AI news in five minutes, by StateLess Squad: https://daily.statelesssquad.com/
 
 No build step. `index.html` is one static page that reads the YAML in `news/` when it loads, so a new day goes
 live as soon as its file is on `main` (GitHub Pages serves the branch root).
