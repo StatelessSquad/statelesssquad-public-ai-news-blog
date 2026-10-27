@@ -1,0 +1,44 @@
+date: 2026-10-27
+headline: "OpenAI launches GPT-6.1 Terra and publishes AI proofs resolving Kakeya conjecture, Exponential Time Hypothesis, and Yang–Mills existence"
+summary: "OpenAI dominated the day with a dual release: a new cost-efficient model built for computer-use agents at one-tenth the price of its flagship, plus three landmark AI-generated proofs in mathematics, computer science, and physics that were formalized in Lean and released with academic shepherding groups."
+items:
+  - title: "OpenAI releases GPT-6.1 Terra, a fast computer-use model at half the cost of its predecessor"
+    summary: "GPT-6.1 Terra delivers strong visual reasoning and precise computer control — scoring 15 points higher than GPT-5.6 Terra on agent benchmarks at one-third the cost, and matching GPT-6 Astra at one-tenth the token price. API pricing starts at $1 per million input and $5 per million output tokens, making high-volume automation practical for tasks like invoice processing and video editing."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-1-terra/"
+    kind: model
+  - title: "OpenAI publishes AI-generated proofs for Kakeya conjecture, Exponential Time Hypothesis, and QCD"
+    summary: "An internal model produced a proof of the local smoothing conjecture in all dimensions (resolving Kakeya and Stein's restriction conjecture), a disproof of the Exponential Time Hypothesis (a cornerstone of computational complexity), and an existence proof for Yang–Mills theory and QCD in four dimensions. All results were formalized in Lean and released with external academic collaborations to shepherd verification."
+    source: "openai.com"
+    url: "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+    kind: research
+  - title: "Anthropic files for IPO disclosing $16.3 billion half-year revenue and $80.7 billion net loss"
+    summary: "The S-1 filing reveals explosive top-line growth but staggering costs driven by model training and compute. Anthropic states its primary focus remains foundation models but acknowledges it may compete with application-layer startups 'from time to time' in 'select categories.' The company was valued at $965 billion in its last private round."
+    source: "reuters.com"
+    url: "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/"
+    kind: industry
+  - title: "UK Chancellor unveils £600 million-plus AI plan with sovereign Biosecurity Lab and chip academy"
+    summary: "The package includes £165 million for an AI Biosecurity Lab (backed by up to £200 million in model credits from OpenAI and Anthropic), £120 million for the AI Security Institute, £60 million for a National Cyber Shield using agentic AI, and £70 million for a real-time vulnerability center. It also funds a Sovereign AI Fund, a UK Advanced Chip Design Academy, and local adoption partnerships across mayoral authorities."
+    source: "gov.uk"
+    url: "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+    kind: policy
+  - title: "Meta launches $35 billion equity offering, plans up to $95 billion total for AI buildout"
+    summary: "Meta began selling $22.5 billion in Class A shares and $12.5 billion in mandatory-convertible preferred stock on Monday, with a shelf registration allowing up to $95 billion in total equity sales. Proceeds will fund data centers, custom silicon, and the compute needed for Llama and other frontier model development."
+    source: "reuters.com"
+    url: "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+    kind: industry
+  - title: "Amazon Bedrock adds GPT-6 Astra, Claude Opus 5.5, Grok 4.7, Kimi K3, and GLM 5.3 in multi-model expansion"
+    summary: "AWS made five new frontier models from OpenAI, Anthropic, xAI, Moonshot AI, and Z.ai generally available on Bedrock, giving customers a broad selection across proprietary and open-weight families. The company also launched TorchNeuron for zero-rewrite PyTorch on Trainium and GA'd AWS Continuum, an AI service that automatically finds, prioritizes, and remediates software vulnerabilities."
+    source: "aboutamazon.com"
+    url: "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview"
+    kind: product
+  - title: "UK Parliament committee opens AI security inquiry with whistleblower testimony from former frontier lab staff"
+    summary: "The Business, Innovation, Science and Trade Committee launched a long-term inquiry into AI adoption, safety, and governance after hearing from former OpenAI and Anthropic employees who left over safety concerns. The probe will examine corporate safety-testing processes, incident reporting, and the Cyber Security and Resilience Bill's proposed protections."
+    source: "committees.parliament.uk"
+    url: "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/218156/house-of-commons-committee-opens-major-new-inquiry-into-ai-security-risks"
+    kind: safety
+  - title: "Nvidia invests $3 billion in Meta partnership around Muse agent and AI infrastructure"
+    summary: "Nvidia and Meta deepened their alliance with a $3 billion investment deal centered on Meta's Muse agent and joint AI infrastructure development. The partnership extends beyond hardware into co-development of agentic workflows and model optimization for Meta's massive compute fleet."
+    source: "reuters.com"
+    url: "https://www.reuters.com/technology/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-2026-10-27/"
+    kind: industry
