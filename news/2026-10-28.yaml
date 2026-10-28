@@ -1,0 +1,39 @@
+date: 2026-10-28
+headline: "Nvidia and AMD pour $4B into Meta as OpenAI undercuts Anthropic ahead of IPO"
+summary: "Capital and compute deals dominated the day: Nvidia and AMD committed $4 billion to Meta's $95 billion infrastructure raise, OpenAI launched GPT-6.1 Terra at half the price of its predecessor one day after Anthropic filed an S-1 revealing $417 billion in compute obligations, and Google DeepMind unveiled Genie 4 — a world model that generates native audio and real-time steerable simulations."
+items:
+  - title: "Nvidia and AMD invest $4 billion in Meta's $95 billion AI infrastructure raise"
+    summary: "Nvidia committed $3 billion and AMD $1 billion to Meta Platforms as part of a previously announced plan to raise up to $95 billion for AI infrastructure, including a $35 billion initial share offering."
+    source: "thecodew.com"
+    url: "https://www.thecodew.com/2026/10/daily-tech-briefing-october-28.html"
+    kind: industry
+  - title: "OpenAI releases GPT-6.1 Terra with 50% lower API pricing and computer-use capabilities"
+    summary: "OpenAI launched GPT-6.1 Terra, a fast, efficient model optimized for visual reasoning, precise computer use, and natural writing. API pricing dropped to $1 per million input tokens and $5 per million output tokens — half the cost of GPT-5.6 Terra — while safety evaluations show it matches recent GPT-6 models on cybersecurity and biological capabilities. The model is rolling out in ChatGPT Work, Codex, and the API."
+    source: "help.openai.com"
+    url: "https://help.openai.com/en/articles/9624314-model-release-notes"
+    kind: model
+  - title: "Anthropic files S-1 for Nasdaq IPO, revealing $16.3B revenue and $417B+ compute obligations"
+    summary: "Anthropic's prospectus shows 1,300% year-over-year revenue growth to $16.3 billion in H1 2026, but an $80.7 billion net loss driven by massive infrastructure commitments. The company has $417 billion in non-cancelable compute contracts spanning up to 20 years, plus $125–150 billion in pending orders. Net revenue retention hit 900%, meaning existing customers spend nine times more year over year."
+    source: "cnbc.com"
+    url: "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+    kind: industry
+  - title: "Google DeepMind unveils Genie 4, a world model with native audio and real-time steering"
+    summary: "Genie 4 generates photorealistic, interactive simulations with synchronized ambient sound, music, and dialogue. Users can steer scenes mid-simulation using natural language — changing weather, camera angles, or adding characters — and maintain consistency for up to two minutes, double the prior limit."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+    kind: model
+  - title: "Oracle integrates ChatGPT and Codex into enterprise apps, adds Google TPUs to OCI"
+    summary: "At Oracle AI World in Las Vegas, Oracle announced a deepened partnership with OpenAI embedding ChatGPT and Codex across Fusion, NetSuite, and OCI. New products include Oracle AI Workspace for running business workflows through ChatGPT, Oracle AI Security Mesh using OpenAI cyber models for vulnerability testing, Oracle App Composer for no-code app building with Codex, and an SMB bundle with $12K in cloud credits."
+    source: "oracle.com"
+    url: "https://www.oracle.com/apac/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/"
+    kind: product
+  - title: "OpenAI plans to buy Google TPU chips, reducing dependence on Nvidia"
+    summary: "According to The Information, OpenAI intends to purchase Google's Tensor Processing Units directly for training and inference, marking a strategic shift away from exclusive reliance on Nvidia GPUs and Microsoft Azure. The move follows last week's announcement that OpenAI's frontier models will be available on Google Cloud, and June 2025 reports that OpenAI began renting Google TPUs."
+    source: "thestar.com.my"
+    url: "https://www.thestar.com.my/tech/tech-news/2026/10/28/openai-plans-to-buy-google039s-ai-chips-the-information-reports"
+    kind: industry
+  - title: "Cognition AI raises $400 million at $10.2 billion valuation, joining the AI decacorn club"
+    summary: "The applied AI startup, known for automating software development, closed a Series A led by Founders Fund with participation from Lux Capital, 8VC, and Bain Capital Ventures. Revenue has grown 30% since acquiring rival Windsor last year. Cognition now sits alongside OpenAI, Anthropic, and Sierra as one of the few private AI companies valued above $10 billion."
+    source: "akm.ru"
+    url: "https://www.akm.ru/eng/news/american-ai-startup-cognition-has-increased-its-market-value-to-10-2-billion/"
+    kind: industry
