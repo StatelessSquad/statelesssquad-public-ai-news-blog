@@ -1,0 +1,44 @@
+date: 2026-10-29
+headline: "OpenAI's Astra becomes first model designated at Critical cybersecurity threshold"
+summary: "OpenAI confirmed its upcoming GPT-6 Astra model meets the Critical cybersecurity capability tier under its Preparedness Framework, scoring 100% on ExploitBench and autonomously discovering zero-day vulnerabilities in hardened browsers and operating systems."
+items:
+  - title: "OpenAI's GPT-6 Astra reaches Critical cybersecurity threshold"
+    summary: "OpenAI determined that its unreleased Astra model meets the Critical tier of its Preparedness Framework for cybersecurity, becoming the first model to do so. Astra scored 100% on the ExploitBench benchmark, discovered two real zero-day vulnerabilities during testing (a browser sandbox escape and an OS privilege-escalation chain), and outperforms GPT-5.6 Sol on token efficiency for exploit development."
+    source: "openai.com"
+    url: "https://openai.com/index/path-to-astra/"
+    kind: safety
+  - title: "OpenAI launches GPT-6.1 Terra with 50% lower API pricing"
+    summary: "OpenAI released GPT-6.1 Terra, a fast model optimized for visual reasoning, computer use, and coding, priced at $1 per million input and $5 per million output tokens — half the cost of GPT-5.6 Terra and GPT-6.1 Sol. It is available immediately in ChatGPT Work, Codex, and the OpenAI API with a 1.05M context window and 128K max output. The release continues a rapid price decline for capable mid-size models."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-1-terra/"
+    kind: model
+  - title: "Google DeepMind unveils Genie 4 world model with native audio"
+    summary: "Google DeepMind announced Genie 4, a real-time interactive world model that generates photorealistic video and synchronized audio — including ambient sound, music, and character dialogue — in a single forward pass. Users can steer simulations live via text prompts (changing weather, camera angle, adding objects) and keyboard controls. Coherence holds for roughly two minutes."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    kind: research
+  - title: "Anthropic releases Claude Opus 5.5, Fable 5.1, and Mythos 5.1 with new safeguards"
+    summary: "Anthropic launched three model variants simultaneously: Opus 5.5 (general release with ASL-3 protections), Fable 5.1 (safeguarded version of Mythos 5.1 for broad use), and Mythos 5.1 (trusted-access only for cybersecurity and biology research)."
+    source: "anthropic.com"
+    url: "https://www.anthropic.com/claude-opus-5-5"
+    kind: model
+  - title: "Moonshot AI debuts Kimi K3.1 Pro, promising open weights by November 4"
+    summary: "Chinese startup Moonshot AI released Kimi K3.1 Pro, a 3T-class mixture-of-experts model with a 1M-token context window, scoring 55 on the Artificial Analysis Intelligence Index and 65.7% on Terminal-Bench 4.0 — within one point of Claude Opus 5.5 on agentic coding. API pricing is $2/$10 per million tokens. A high-speed variant delivers 2–3× throughput."
+    source: "platform.kimi.ai"
+    url: "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart"
+    kind: model
+  - title: "NaiveAI open-sources Naive-N0.5-Flash, a 309B MoE with hybrid sparse attention"
+    summary: "NaiveAI Labs released Naive-N0.5-Flash, a 309B-parameter mixture-of-experts model (15.5B active) with a native 1M-token context window achieved through a hybrid of Sliding-Window Attention (39 layers) and lightweight DeepSeek Sparse Attention (9 layers), eliminating full-attention layers entirely."
+    source: "github.com"
+    url: "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash"
+    kind: model
+  - title: "Opera ships WebAI local AI standard in early preview across its browsers"
+    summary: "Opera rolled out WebAI, a proposed web standard backed by Google and Microsoft, in early preview for Opera One, Opera GX, and Opera Neon on Windows (x64) and Apple Silicon Macs. WebAI lets websites and extensions call locally running open-weight models (including Gemma and Apple's on-device foundation model) via Prompt, Decision, and Semantic Embeddings APIs."
+    source: "blogs.opera.com"
+    url: "https://blogs.opera.com/news/2026/10/webai-local-ai-for-the-web-now-in-opera/"
+    kind: product
+  - title: "U.S. House passes 10-year moratorium on state AI laws in budget bill"
+    summary: "The House narrowly passed (215-214) a budget reconciliation package containing a 10-year ban on state and local enforcement of any law regulating AI models, systems, or automated decision systems, with limited exceptions for generally applicable laws. The provision also appropriates $500 million through 2035 for federal IT modernization using commercial AI."
+    source: "bhfs.com"
+    url: "https://www.bhfs.com/insight/congress-sets-its-ai-on-the-states-house-advances-moratorium-on-state-ai-laws/"
+    kind: policy
