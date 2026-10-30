@@ -1,0 +1,39 @@
+date: 2026-10-30
+headline: "Google's Gemini 4 Carbon claims top intelligence spot while optical computing and policy shifts reshape the field"
+summary: "Google's new Gemini 4 Carbon model tops the Artificial Analysis Intelligence Index but remains restricted to security defenders, while Shanghai Jiao Tong University demonstrates the first all-optical chip running generative AI. Meanwhile, the White House issued an executive order to preempt state AI laws, OpenAI reportedly shelved a model over safety concerns, and Stripe launched an open protocol for agentic commerce with OpenAI."
+items:
+  - title: "Google releases Gemini 4 Carbon, tops intelligence leaderboard but restricts access"
+    summary: "Google's new Gemini 4 Carbon model achieved the highest score on the Artificial Analysis Intelligence Index, outperforming GPT-5 and Claude Opus 4.5 on reasoning and cybersecurity benchmarks. However, Google is limiting availability to security defenders and vulnerability researchers, citing safety concerns around the model's advanced capabilities."
+    source: "benchlm.ai"
+    url: "https://benchlm.ai/models/gemini-4-carbon"
+    kind: model
+  - title: "Shanghai Jiao Tong University unveils LightGen, the first all-optical chip for generative AI"
+    summary: "Researchers published in Science a breakthrough all-optical computing chip called LightGen that runs large-scale generative models end-to-end using light instead of electrons. The chip integrates millions of optical neurons, achieves all-optical dimensional transformation, and uses a novel training algorithm without ground truth — delivering two orders of magnitude better energy efficiency than digital chips."
+    source: "en.sjtu.edu.cn"
+    url: "https://en.sjtu.edu.cn/news-events/news/2458"
+    kind: research
+  - title: "White House issues executive order to create national AI framework preempting state laws"
+    summary: "President Trump signed an executive order directing the Attorney General to establish an AI Litigation Task Force to challenge state AI laws that conflict with federal policy. The order argues that a patchwork of 50 state regulations threatens U.S. AI dominance and calls for a minimally burdensome national standard while preserving child safety and copyright protections."
+    source: "whitehouse.gov"
+    url: "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+    kind: policy
+  - title: "OpenAI shelves new model release over safety concerns"
+    summary: "Reuters reports that OpenAI has delayed releasing a new AI model due to safety concerns identified during internal testing. The decision reflects growing tension between competitive pressure to ship advanced models and the industry's evolving safety standards, though specific details about the model and the concerns were not disclosed."
+    source: "reuters.com"
+    url: "https://www.reuters.com/technology/artificial-intelligence/"
+    kind: safety
+  - title: "Stripe and OpenAI launch Agentic Commerce Protocol for AI-driven transactions"
+    summary: "Stripe introduced the Agentic Commerce Protocol (ACP), an open standard enabling AI agents to complete purchases on behalf of users. The protocol already powers ChatGPT's Instant Checkout and has early adoption from Microsoft Copilot, Anthropic, Perplexity, and others. ACP lets merchants sell through AI agents while retaining control over catalog, fulfillment, and customer relationships."
+    source: "stripe.com"
+    url: "https://stripe.com/newsroom/news/tour-newyork-2025"
+    kind: product
+  - title: "Mistral releases Mistral 3 family with multiple open-weight models"
+    summary: "Mistral AI launched the Mistral 3 family including Mistral Large 3 and several Ministral 3 variants (3B, 8B, 14B) with reasoning-capable versions. The release continues Mistral's strategy of providing open-weight alternatives to closed frontier models, with the models available on Hugging Face and via Mistral's API."
+    source: "benchlm.ai"
+    url: "https://benchlm.ai/models/mistral-large-3"
+    kind: model
+  - title: "NVIDIA debuts Nemotron 3 family optimized for agentic AI"
+    summary: "NVIDIA released Nemotron 3, a series of open reasoning models designed for agentic AI systems. The family includes Nemotron 3 Nano 30B-A3B, the most compute-efficient variant, supporting 1M token context windows and hybrid architectures. The models target startups building autonomous AI agents with improved token throughput."
+    source: "linkedin.com"
+    url: "https://www.linkedin.com/posts/markdundon_ai-chatgpt-nemotron-activity-7407420052997709824-wyWD"
+    kind: model
