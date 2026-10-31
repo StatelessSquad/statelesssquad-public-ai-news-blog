@@ -1,0 +1,39 @@
+date: 2026-10-31
+headline: "Mistral drops open-weight trillion-parameter model; Google and OpenAI counter with cybersecurity and computer-use flagships"
+summary: "Three frontier labs shipped major model updates in 24 hours: Mistral released open weights for its trillion-parameter Large 4, which leads open models on cybersecurity and beats closed rivals that refuse such tasks; Google DeepMind unveiled Gemini 4 Carbon, topping the Artificial Analysis Intelligence Index with state-of-the-art vulnerability finding, exploitation, and patching scores; OpenAI launched GPT-6.1 Terra, a fast computer-use model at half the predecessor's price."
+items:
+  - title: "Mistral releases open weights for trillion-parameter Large 4, leading open models on cybersecurity"
+    summary: "Mistral published weights for Mistral Large 4 (nicknamed Le Chonk), a 1-trillion-parameter multimodal MoE trained on European infrastructure. It scores 82% on vulnerability reproduction where Claude Opus 5.5 and GPT-6 Astra score near zero due to refusals, and tops the Artificial Analysis Cyber Index among non-Chinese open models."
+    source: "mistral.ai"
+    url: "https://mistral.ai/news/mistral-large-4/"
+    kind: model
+  - title: "Google DeepMind launches Gemini 4 Carbon, its strongest model, for cyber defenders first"
+    summary: "Gemini 4 Carbon ranks #1 on the Artificial Analysis Intelligence Index v5 at 59 points. It achieves 88.2% on SEC-bench Pro (vulnerability finding), 54.8% on ExploitGym (exploitation), and 71.0% on CWE-bench (patching), beating GPT-6 Astra and Claude Opus 5.5. Access begins this week for vetted cyber defenders via Google's Fairwind Program, with broader rollout pending guardrail iteration."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    kind: model
+  - title: "OpenAI releases GPT-6.1 Terra: fast computer-use model at half the API cost"
+    summary: "GPT-6.1 Terra replaces GPT-5.6 Terra in ChatGPT Work, Codex, and the API at $1/$5 per million input/output tokens (50% lower). It matches GPT-6 Astra on agent benchmarks at one-tenth the token price, completes tasks over three times faster, cuts factual error rates from 53.6% to 16.7%, and doubles coding task completion. Available to Plus, Pro, Enterprise, and Edu users."
+    source: "openai.com"
+    url: "https://openai.com/products/release-notes/"
+    kind: model
+  - title: "Google DeepMind unveils Genie 4, a real-time world model with native audio generation"
+    summary: "Genie 4 generates photorealistic, interactive simulations with simultaneous audio — music, ambient sounds, and dialogue — and allows real-time natural-language steering (changing weather, camera, adding objects). It maintains scene consistency for up to two minutes and improves physics and human motion."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    kind: research
+  - title: "Supply-chain attack plants backdoored Claude Code extension on Cursor marketplace"
+    summary: "A malicious version of the Anthropic.claude-code extension (v2.1.312/2.1.313) was available on Cursor's VS Code marketplace for ~11 hours on October 29, downloaded by up to 5,000 users. The trojanized extension harvested host data, dropped an attacker-controlled SSH key, and attempted persistent reverse SSH tunnels."
+    source: "cursor.com"
+    url: "https://cursor.com/blog/claude-code-extension-security-notice"
+    kind: safety
+  - title: "Anthropic IPO filing reveals $518+ billion in non-cancelable compute commitments"
+    summary: "Anthropic's confidential S-1 shows ~$417 billion in signed cloud compute obligations (Google $111B, AWS $110B, Microsoft $31B) plus ~$161B in Broadcom equipment leases, largely non-cancelable or payable regardless of usage. Total potential buildout reaches $750B. The company reported $16.3B revenue (1,300% YoY) but an $80B net loss in H1 2026, mostly from derivative revaluation."
+    source: "cnbc.com"
+    url: "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+    kind: industry
+  - title: "Liquid AI releases LFM3: six open-weight 2B-class models from one shared backbone"
+    summary: "Liquid AI's LFM3 family branches six models (text, vision, audio, omni, two decision variants) from a single 1.7B-parameter base pre-trained on 22T tokens. The text model fits in ~1 GB at 4-bit, supports 256K context, and decodes 1.8–2.8× faster than comparable on-device models."
+    source: "aiweekly.co"
+    url: "https://aiweekly.co/alerts/liquid-ai-opens-six-model-lfm3-family-at-256k-context"
+    kind: model
