@@ -1,0 +1,44 @@
+date: 2026-11-03
+headline: "OpenAI overhauls Model Spec around five core values as Google, Mistral, and Tencent drop major model releases"
+summary: "The AI landscape shifted on multiple fronts: OpenAI restructured its public Model Spec around faithfulness to human intent, harm reduction, honesty, human agency, and care; Google launched Gemini 4 Carbon, a cybersecurity-focused frontier model topping benchmarks; Mistral open-sourced its 1-trillion-parameter Large 4 'Le Chonk' leading open-weight coding and defense scores; Tencent's Hyra 2.0 demonstrated an autonomous research agent that builds reusable scientific tools; and Anthropic…"
+items:
+  - title: "OpenAI restructures Model Spec around five core values"
+    summary: "OpenAI published an updated Model Spec reorganizing all behavioral guidance around five principles: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. The revision clarifies how models should interpret ambiguous requests, exercise judgment in novel situations, and remain corrigible under human oversight."
+    source: "openai.com"
+    url: "https://openai.com/index/updated-model-spec"
+    kind: policy
+  - title: "Google launches Gemini 4 Carbon, its strongest model for cybersecurity and long-horizon coding"
+    summary: "Gemini 4 Carbon debuted at #1 on the Artificial Analysis Intelligence Index v5.0 (score 59) and leads external cybersecurity benchmarks: 88.2% on SEC-bench Pro vulnerability finding, 54.8% on ExploitGym exploitation, 71.0% on CWE-bench patching. Google says internal testing shows over 2x secure-code generation success versus Argon and 10x better Chrome vulnerability patches than a rival frontier model."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    kind: model
+  - title: "Mistral releases Mistral Large 4 'Le Chonk' as open weights"
+    summary: "Mistral published the weights of its 1-trillion-parameter natively multimodal MoE model (49B active params) on Hugging Face under a modified MIT license requiring a separate commercial license for Model-as-a-Service providers."
+    source: "mistral.ai"
+    url: "https://mistral.ai/news/mistral-large-4-oss/"
+    kind: model
+  - title: "Anthropic expands invisible text watermarking to four older Claude models"
+    summary: "Starting November 3, Anthropic's SynthID-Text watermark — an imperceptible statistical pattern in word choice — will apply to Claude Mythos 5, Opus 4.7, Opus 4.6, and Sonnet 4.6 globally, driven by the EU AI Act's machine-readable labeling deadline. Detection is limited to eligible organizations (regulators, media, researchers) via a private-preview API."
+    source: "the-decoder.com"
+    url: "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
+    kind: safety
+  - title: "Tencent Hunyuan unveils Hyra 2.0, an autonomous research agent that builds reusable scientific tools"
+    summary: "Hyra 2.0 uses a three-tier agent architecture (Overall, Mission, Worker) with persistent memory and independent verification to create reusable models and workflows rather than one-off answers."
+    source: "github.com"
+    url: "https://github.com/Tencent-Hunyuan/hyra-results"
+    kind: research
+  - title: "OpenAI releases GPT-6.1 Terra, a fast agent and computer-use model at half the predecessor's price"
+    summary: "GPT-6.1 Terra launched in ChatGPT Work, Codex, and the API at $1/$5 per million input/output tokens (50% below GPT-5.6 Terra). OpenAI says it matches GPT-6 Astra on agent benchmarks at one-tenth the token cost and completes tasks over three times faster. The model supports computer use, visual reasoning, and a 1.05M-token context window, targeting high-volume automation like invoice processing."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-1-terra/"
+    kind: product
+  - title: "Demis Hassabis proposes a FINRA-style US Standards Body for frontier AI models"
+    summary: "In a detailed framework, the Google DeepMind CEO calls for an industry-funded, technically independent Standards Body to develop assessment protocols and conduct pre-release testing of 'Frontier-class' models on cyber, bio, and deception risks. Participation would start voluntary (30-day pre-release review) and become mandatory once protocols prove robust."
+    source: "x.com"
+    url: "https://x.com/demishassabis/status/2076957440109625718"
+    kind: policy
+  - title: "Anthropic warns it may imminently cross its recursive self-improvement threshold"
+    summary: "In a revised S-1A filing, Anthropic disclosed that internal estimates for future models indicate it may soon meet its Responsible Scaling Policy's definition of 'dramatically accelerated progress attributable to AI' — the tripwire tied to recursive self-improvement (RSI)."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    kind: safety
