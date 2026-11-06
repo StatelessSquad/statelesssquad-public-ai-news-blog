@@ -1,0 +1,44 @@
+date: 2026-11-06
+headline: "OpenAI's GPT-6 Cyber discovers 81 Firefox and 948 Linux kernel vulnerabilities, rated Critical"
+summary: "The day's defining development was OpenAI's release of GPT-6 Cyber, a specialized security model that autonomously found and exploited hundreds of real-world vulnerabilities in Firefox and the Linux kernel while staying within researcher-defined boundaries."
+items:
+  - title: "OpenAI releases GPT-6 Cyber, finds 81 Firefox and 948 Linux kernel exploits"
+    summary: "OpenAI launched GPT-6 Cyber, a cybersecurity-specialized model available to vetted Daybreak Red customers. In testing, it uncovered 81 previously unknown high-severity Firefox vulnerabilities (Mozilla has shipped fixes) and developed working exploits for 948 Linux kernel flaws, including 588 novel bugs. The model scored 48.5% on ExploitGym and avoided out-of-scope actions in 99.93% of tests."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-cyber"
+    kind: model
+  - title: "Tencent launches Hy4 with visual understanding and computer control"
+    summary: "Tencent released Hunyuan Hy4, a 770-billion-parameter mixture-of-experts model with a 1-million-token context window. It adds image understanding (chart analysis, visual math reasoning) and computer-use capabilities (CLI and GUI operation, trained on Blender and CAD) for the first time. Available via Tencent Cloud, OpenRouter, and Tencent apps; weights and system card promised in coming days."
+    source: "tencent.com"
+    url: "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+    kind: model
+  - title: "Mistral open-sources Large 4 (Le Chonk) 1-trillion-parameter model"
+    summary: "Mistral released open weights for Mistral Large 4, a natively multimodal 1-trillion-parameter model (52B active) on Hugging Face under a modified MIT license allowing commercial use but requiring a separate license for Model-as-a-Service offerings. The release follows three weeks of RL refinement after an October public preview, with API pricing dropped to $0.70/M input, $2.10/M output."
+    source: "mistral.ai"
+    url: "https://mistral.ai/news/mistral-large-4-oss/"
+    kind: model
+  - title: "Google makes AI opt-in for K-12 schools; opting out disables Search"
+    summary: "Google announced it will disable Gemini, Gemini Notebook, Gemini in Classroom, and Google Search by default for K-12 student accounts starting early 2027. Administrators must explicitly enable each tool. Critically, schools that decline AI entirely lose access to Google Search because AI Overviews are now deeply integrated. The reversal follows backlash to August's default-on rollout."
+    source: "apnews.com"
+    url: "https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a"
+    kind: policy
+  - title: "Anthropic extends invisible watermarks to four older Claude models for EU AI Act compliance"
+    summary: "Starting November 3, Anthropic activated SynthID-Text watermarking on Mythos 5, Opus 4.7, Opus 4.6, and Sonnet 4.6 worldwide with no opt-out. The statistical watermark survives copying and light editing, adds no tokens or cost, and is detectable only via a private API for regulators, journalists, and compliance-obligated enterprises."
+    source: "anthropic.com"
+    url: "https://www.anthropic.com/news/claude-text-watermark"
+    kind: safety
+  - title: "OpenAI restructures Model Spec around five core values"
+    summary: "OpenAI published an updated Model Spec on October 29 reorganizing model behavior guidance around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care."
+    source: "openai.com"
+    url: "https://openai.com/index/updated-model-spec/"
+    kind: safety
+  - title: "Google DeepMind unveils Genie 4 real-time interactive world model with native audio"
+    summary: "DeepMind announced Genie 4, a research-preview world model that generates interactive 3D environments frame-by-frame in real time with synchronized native audio (ambient sound, music, dialogue). Users steer scenes via natural language (change weather, add characters, move camera). The model holds coherence for ~2 minutes, double Genie 3. Demonstrated with a simulated Apptronik Apollo robot playing checkers."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+    kind: research
+  - title: "Meta acquires Conductor, a multi-agent AI coding orchestration startup"
+    summary: "Meta acquired Conductor, a 2024-founded startup whose macOS app lets developers run multiple AI coding agents (Claude Code, Codex, OpenCode, etc.) in parallel isolated workspaces. Conductor Cloud will go read-only November 13 and shut down November 20 with data deletion; the local client continues until early 2027. Financial terms undisclosed."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+    kind: industry
