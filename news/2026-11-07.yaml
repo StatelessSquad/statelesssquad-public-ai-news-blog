@@ -1,0 +1,44 @@
+date: 2026-11-07
+headline: "OpenAI releases GPT-6 Cyber, a 'Critical'-rated security model that found 81 Firefox flaws and 948 Linux exploits"
+summary: "The past 24 hours saw a wave of major model launches across the frontier labs. OpenAI shipped a specialized cybersecurity model rated Critical under its own framework, Google made its video generation model 30% cheaper with longer clips, and Tencent dropped a 770B open-weight contender with vision and computer-use skills."
+items:
+  - title: "OpenAI launches GPT-6 Cyber for vetted defenders, rates it Critical"
+    summary: "OpenAI released GPT-6 Cyber to its Daybreak Red program, a model built to find and exploit software vulnerabilities while staying within researcher-set boundaries. It scored 48.5% on ExploitGym (up from 32.1% for its predecessor), discovered 81 previously unknown high-severity Firefox vulnerabilities, and developed working exploits for 948 distinct Linux kernel flaws."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-cyber/"
+    kind: model
+  - title: "Google releases Gemini Omni 1.2 Flash with 15-second clips at 30% lower price"
+    summary: "Google DeepMind made Gemini Omni 1.2 Flash generally available, extending maximum video length from 10 to 15 seconds with one-second step control and adding multi-turn conversational editing so clips can be refined rather than regenerated. The price dropped 30% to $0.07 per second of 720p video. The model is accessible via the Gemini API, Google Cloud, Google Vids, and Gemini for business."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+    kind: product
+  - title: "OpenAI adds animated GIFs and 50% faster generation in Images 2.6"
+    summary: "OpenAI rolled out Images 2.6 across ChatGPT, Codex, and the API, introducing animated GIF output from prompts or reference images with frame-level editing. Generation is 50% faster than the previous version. The API exposes two models: GPT-Image-2.6 Flare for speed (as low as six seconds per image) and Sunburst for detail and cross-edit consistency, plus SVG export and markup-guided editing at unchanged pricing."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-images-2-6/"
+    kind: product
+  - title: "Tencent launches Hy4 with vision, computer use, and promised open weights"
+    summary: "Tencent released Hy4, a 770-billion-parameter model that adds visual understanding and computer-use capabilities for the first time. It can interpret charts and documents, reason across multiple images, and operate both command-line and graphical interfaces, with specialized training on professional tools like Blender and CAD."
+    source: "tencent.com"
+    url: "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+    kind: model
+  - title: "Google DeepMind opens Antigravity Cheminformatics Skills to 10,000 scientists free"
+    summary: "Google DeepMind published a suite of Cheminformatics Skills for its Antigravity workbench, built on RDKit with connectors to ChEMBL and PubChem. In a lung-cancer demonstration, an agent retrieved thousands of compounds, performed matched molecular pair analysis, and proposed novel macrocycles with synthesis routes in about an hour."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+    kind: research
+  - title: "Anthropic open-sources FlashProve, a zkSNARK prototype for model provenance"
+    summary: "Anthropic's Frontier Red Team, with collaborators from EPFL, MIT, and StarkWare, released FlashProve — an Apache 2.0 prototype that uses zero-knowledge proofs to cryptographically verify that a model output came from specific committed weights without revealing them."
+    source: "anthropic.com"
+    url: "https://www.anthropic.com/research/provable-inference"
+    kind: safety
+  - title: "METR estimates Anthropic's model improvement rate has doubled since late 2025"
+    summary: "An independent evaluation by METR finds that as of October 2026, Anthropic's models are improving on well-specified tasks at roughly twice the rate observed between March 2024 and October 2025. On Anthropic's internal capability index, scores have grown 1.9× faster (95% interval 1.5× to 2.8×), with internal AI use driving approximately 80% of the acceleration."
+    source: "metr.org"
+    url: "https://metr.org/blog/anthropic-progress-acceleration-2026"
+    kind: research
+  - title: "India CERT-In mandates 6-hour AI incident reporting and risk-based audits"
+    summary: "India's Computer Emergency Response Team published cybersecurity auditing guidelines for AI systems used by government and private organizations. Reportable AI-related security incidents must be disclosed within six hours."
+    source: "cert-in.org.in"
+    url: "https://www.cert-in.org.in/PDF/AI_Cybersecurity_Auditing_Guidelines.pdf"
+    kind: policy
