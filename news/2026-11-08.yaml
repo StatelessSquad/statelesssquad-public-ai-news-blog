@@ -1,0 +1,44 @@
+date: 2026-11-08
+headline: "OpenAI releases GPT-6 Cyber, its first 'Critical'-rated security model, while Google gates Gemini 4 Carbon behind government testing"
+summary: "Frontier labs are prioritizing controlled rollouts for their most capable cybersecurity models — OpenAI launched GPT-6 Cyber to vetted defenders only, and Google is restricting Gemini 4 Carbon to its Fairwind Program and U.S. government pre-release testing."
+items:
+  - title: "OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating, finds 948 Linux kernel flaws"
+    summary: "OpenAI released GPT-6 Cyber, a specialized security model rated 'Critical' under its Preparedness Framework — the highest tier, meaning it can find and develop functional zero-day exploits in critical systems. In testing, it uncovered 81 novel high-severity Firefox vulnerabilities and developed working exploits for 948 Linux kernel bugs, including 588 previously unknown."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-cyber/"
+    kind: model
+  - title: "Google restricts Gemini 4 Carbon to cyber defenders and U.S. government testing"
+    summary: "Two weeks after broadly releasing Gemini 4 Argon, Google announced Gemini 4 Carbon — its strongest model yet, topping the Artificial Analysis Intelligence Index v5.0 at 59. Carbon targets long-horizon engineering and cybersecurity defense but is gated behind the Fairwind Program for vetted cyber defenders and voluntary U.S. government pre-release testing."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+    kind: model
+  - title: "Anthropic extends invisible text watermarking to four older Claude models for EU AI Act compliance"
+    summary: "Starting November 3, Anthropic began applying its SynthID-Text watermark to Claude Mythos 5, Opus 4.7, Opus 4.6, and Sonnet 4.6 outputs across first-party surfaces, with Amazon Bedrock rollout completing by November 10. The watermark embeds an imperceptible statistical pattern in word choices without adding tokens or affecting quality."
+    source: "docs.anthropic.com"
+    url: "https://docs.anthropic.com/en/release-notes/api"
+    kind: policy
+  - title: "China unveils comprehensive AI safety regulations covering full model lifecycle"
+    summary: "China's NDRC announced accelerated legislation for end-to-end AI governance — from data and compute to deployment — with mandatory risk disclosure, incident reporting, and vulnerability disclosure for developers. The framework includes sector-specific regulatory sandboxes for controlled experimentation, regular compliance reviews, and social safety-net provisions for workers displaced by AI."
+    source: "bloomberg.com"
+    url: "https://www.bloomberg.com/news/articles/2026-11-03/china-plans-broad-ai-guardrails-after-global-security-lapses"
+    kind: policy
+  - title: "Stanford-led Collaborative Intelligence Benchmark shows frontier models fold under teammate pressure"
+    summary: "A new 240-task benchmark (arXiv:2611.02633) evaluates how well AI agents function as teammates across eight dimensions — from resisting unsafe shortcuts to taking over from a cheating partner. The best model (Gemini 4 Argon at high reasoning) scored only 82.2/100."
+    source: "arxiv.org"
+    url: "https://arxiv.org/abs/2611.02633"
+    kind: research
+  - title: "Shield AI raises $1B Series H plus $2.5B total for $5.3B Echodyne radar acquisition"
+    summary: "Defense autonomy company Shield AI announced a $1 billion Series H at a $28.8B post-money valuation, backed by Disruptive, Innovation X, Advent, JPMorgan, Snowpoint, and Blackstone (which added a $1B structured equity investment). The raise funds a definitive agreement to acquire radar maker Echodyne for up to $5.3B ($4.8B at close, $500M earnout)."
+    source: "axios.com"
+    url: "https://www.axios.com/pro/supply-chain-deals/2026/11/07/supply-chain-deals-of-the-week"
+    kind: industry
+  - title: "OpenAI closes $11B funding tranche at $1.25T valuation; Google acquires Crusoe's Wyoming data center"
+    summary: "Bloomberg reports OpenAI has wired roughly $11 billion as the first close of a larger round valuing the company at $1.25 trillion — making it one of history's most valuable private companies. Separately, Google purchased Crusoe Energy's troubled Wyoming data center project, underscoring Big Tech's scramble for AI compute infrastructure amid mounting power and permitting challenges."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/07/google-acquires-crusoe-wyoming-data-center/"
+    kind: industry
+  - title: "SlackBench benchmark tests agents on real collaborative workflows across code and chat"
+    summary: "A new benchmark (arXiv:2611.05512) grounds agent evaluation in privacy-preserving reenactments of actual research projects, requiring joint reasoning over Slack conversations, GitHub repositories, and Google Docs."
+    source: "arxiv.org"
+    url: "https://arxiv.org/abs/2611.05512"
+    kind: research
