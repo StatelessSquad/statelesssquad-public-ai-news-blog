@@ -1,0 +1,44 @@
+date: 2026-11-11
+headline: "Anthropic launches Fable 5.2 and Mythos 5.2, claiming benchmark leadership and breakthroughs in math, physics, and OS design"
+summary: "Anthropic's new flagship models dominate the day, reportedly solving open black-hole physics problems, formalizing Fermat's Last Theorem in 30 hours using 1,000 agents, and building a working operating system from scratch. Meanwhile Meta, NVIDIA, and Google DeepMind each shipped significant robotics and agent-focused models, Anthropic filed for a blockbuster IPO with a $26 billion strategic placement, and independent evaluators found Anthropic's self-improvement pace has roughly doubled."
+items:
+  - title: "Anthropic releases Claude Fable 5.2 and Mythos 5.2 with benchmark-leading performance"
+    summary: "Anthropic launched its most capable models yet at $8 per million input and $40 per million output tokens — a price drop from the prior generation."
+    source: "anthropic.com"
+    url: "https://www.anthropic.com/news/claude-fable-mythos-5-2"
+    kind: model
+  - title: "Meta unveils Muse Ember, a low-cost model built for high-volume agent tasks"
+    summary: "Meta Superintelligence Labs released Muse Ember at $0.10 per million input and $0.50 per million output tokens, positioning it as the economical tier of its Muse family."
+    source: "ai.meta.com"
+    url: "https://ai.meta.com/blog/muse-ember-lightweight-agent-model"
+    kind: model
+  - title: "NVIDIA debuts GR00T 2, a 2-billion-parameter robotics foundation model"
+    summary: "At CoRL 2026, NVIDIA introduced GR00T 2, a vision-language-action model trained on 100,000 hours of egocentric human video. It achieves 71% one-shot success across 50 diverse robotics tasks, rising to 95% with five demonstrations, and completes 40 of 50 tasks zero-shot. The model transfers learned skills to new robot morphologies without re-demonstration."
+    source: "research.nvidia.com"
+    url: "https://research.nvidia.com/labs/gr00t-2"
+    kind: model
+  - title: "Google DeepMind rolls out Gemini Robotics 2.5 to robotics partners"
+    summary: "DeepMind's latest vision-language-action model was tested on Mercedes-Benz production lines and reportedly improves task success rates by 30–100% over prior baselines while operating 20–30% faster. The model translates camera input and natural-language instructions into robot motions and is being released to DeepMind's robotics partners rather than as a public API."
+    source: "deepmind.google"
+    url: "https://deepmind.google/discover/blog/gemini-robotics-2-5"
+    kind: model
+  - title: "Anthropic files amended IPO registration with $26 billion strategic placement"
+    summary: "Anthropic's Form S-1 Amendment No. 2 prices 825 million Class A shares at $70–78 and confirms a $26 billion private placement from AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC Partners. TSMC's board separately approved up to $500 million investments in both Anthropic and OpenAI."
+    source: "sec.gov"
+    url: "https://www.sec.gov/Archives/edgar/data/anthropic"
+    kind: industry
+  - title: "METR evaluation finds Anthropic's model improvement pace has roughly doubled"
+    summary: "After an 11-week high-access review, nonprofit evaluator METR estimates Anthropic's progress on well-specified tasks has accelerated ~1.9x since October 2025, with about 80% of the speedup attributed to AI systems assisting the company's own R&D rather than additional compute."
+    source: "metr.org"
+    url: "https://metr.org/blog/anthropic-progress-evaluation-november-2026"
+    kind: research
+  - title: "AI system proves 18-year-old quantum conjecture in three days"
+    summary: "Research organization PSI reported that an internal system running an unreleased Anthropic model produced a complete, Lean-verified proof of the Aaronson-Ambainis conjecture — open since 2008 — by the third day of its run. The result was independently checked by the Lean proof assistant and later improved upon by the same system, marking a notable milestone in AI-assisted mathematical discovery."
+    source: "psi.ch"
+    url: "https://psi.ch/news/quantum-conjecture-proof"
+    kind: research
+  - title: "United States and China establish AI incident hotline for national-security emergencies"
+    summary: "The two governments agreed to a dedicated communication line for AI-related incidents that reach national-security severity, aiming to reduce miscalculation and escalation risks from autonomous systems."
+    source: "reuters.com"
+    url: "https://www.reuters.com/technology/us-china-ai-incident-hotline-2026-11-10"
+    kind: policy
