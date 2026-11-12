@@ -1,0 +1,39 @@
+date: 2026-11-12
+headline: "Google releases its strongest frontier model while Anthropic files for a record AI IPO"
+summary: "A wave of new AI models and products landed this week, led by Google's Gemini 4 Carbon for cybersecurity and agentic work, DeepMind's AlphaGenome 2 for genetic research, and Runway's open-weight robotics model. Anthropic's IPO filing at up to $1.4 trillion valuation signals continued investor confidence in frontier AI labs."
+items:
+  - title: "Google makes Gemini 4 Carbon broadly available as its strongest model"
+    summary: "Google released Gemini 4 Carbon to paying developers and enterprises, positioning it as its most capable model for cybersecurity defense and long-horizon agentic workflows in software engineering and scientific research. The model costs $2 per million input tokens and $10 per million output tokens during an introductory period ending November 30."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    kind: model
+  - title: "DeepMind unveils AlphaGenome 2 for cell-level DNA variant prediction"
+    summary: "Google DeepMind released AlphaGenome 2, a DNA sequence model that predicts how genetic variants affect gene expression across hundreds of specific human cell types rather than broad tissue averages. Trained on over 100 million cell profiles, it identifies nearly twice as many causal variants as its predecessor and is available for non-commercial research via API."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    kind: research
+  - title: "Google launches Gemini Decisions API with decision-only model"
+    summary: "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, which answers up to 1,000 yes/no, choice, and rubric questions over a single multimodal input in 150–250 milliseconds. Priced at $0.10 per million input tokens with no output token charges, it targets applications needing calibrated, fast decision outputs."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    kind: product
+  - title: "Runway open-sources Praxis-1 robotics world action model"
+    summary: "Runway released Praxis-1, a 27-billion-parameter world action model for robot control, under the Apache 2.0 license with open weights, inference code, and fine-tuning support. The model turns video pretraining into physical robot actions and ranks first among open-source robot foundation models on NVIDIA's RoboLab-120 benchmark."
+    source: "runway.com"
+    url: "https://runway.com/news/company-news/praxis-1-is-now-available"
+    kind: model
+  - title: "Anthropic files for Nasdaq IPO at $70–$78 per share"
+    summary: "Anthropic launched its IPO roadshow with a price range of $70 to $78 per share, seeking a valuation of up to $1.4 trillion and planning to trade on Nasdaq under the ticker ANT. The company disclosed an $81 billion annualized revenue run rate and nearly $895 billion in compute and infrastructure commitments."
+    source: "cnbc.com"
+    url: "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    kind: industry
+  - title: "Meta releases Muse Ember, a small model for repetitive agent tasks"
+    summary: "Meta introduced Muse Ember, its smallest and most cost-efficient model, designed for the routine work AI agents perform all day such as tool calls, coding subtasks, and document parsing. Priced at $0.10 per million input tokens, it matches Claude Haiku 5.5's benchmark score at roughly a third of the estimated per-task cost."
+    source: "research.meta.ai"
+    url: "https://research.meta.ai/blog/muse-ember"
+    kind: model
+  - title: "OpenAI launches Business Hub and Business Agents in ChatGPT"
+    summary: "OpenAI rolled out Business Hub in beta, letting eligible companies claim verified profiles, update business information, and track aggregated mentions and website clicks within ChatGPT. Business Agents initially serve U.S. ecommerce and online-service businesses, with their conversations labelled separately from standard ChatGPT answers."
+    source: "openai.com"
+    url: "https://openai.com/index/openai-business-hub/"
+    kind: product
