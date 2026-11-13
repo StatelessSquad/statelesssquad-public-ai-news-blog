@@ -1,0 +1,39 @@
+date: 2026-11-13
+headline: "Google launches Gemini 4 Hydrogen as new Search default; OpenAI deploys 35-second kill switch for research workloads"
+summary: "Google rolled out Gemini 4 Hydrogen across Search and its AI ecosystem as the default for complex queries, while OpenAI activated Control Room — a centralized system that can halt any research model workload within 35 seconds."
+items:
+  - title: "Google rolls out Gemini 4 Hydrogen as new default for Search and AI products"
+    summary: "Google released Gemini 4 Hydrogen, a cost-efficient model replacing 3.8 Flash across Search, the Gemini app, AI Studio, and the API. It handles multi-part questions, typos, and agentic workflows with four configurable thinking levels (low, medium, high, xhigh) and is priced at $1.50/$7.50 per million input/output tokens. Google calls it the biggest model upgrade to Search yet."
+    source: "arstechnica.com"
+    url: "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+    kind: model
+  - title: "OpenAI activates Control Room — a 35-second kill switch for all research model workloads"
+    summary: "OpenAI deployed Control Room, a centralized system that tracks every research inference workload and can halt model output within 35 seconds of an intervention decision. It integrates with agentic sampling, training, and evaluation jobs, requires approved safety cases for agentic workloads, and fails closed — if Control Room goes down, all inference requests are denied."
+    source: "openai.com"
+    url: "https://openai.com/index/control-room"
+    kind: safety
+  - title: "Runway releases Praxis-1, a 27B open-weight world action model for robotics under Apache 2.0"
+    summary: "Runway open-sourced Praxis-1, a mixture-of-experts diffusion transformer that predicts video and robot actions together. It achieves 46.2% success on NVIDIA's RoboLab-120 benchmark (1,200 episodes), leads all world action models, and runs on hardware from H100s to Jetson Thor. Weights, inference code, and fine-tuning tooling are on Hugging Face and GitHub."
+    source: "runway.com"
+    url: "https://runway.com/news/company-news/praxis-1-is-now-available"
+    kind: model
+  - title: "Australia proposes mandatory safety rules and new regulator for frontier AI companies"
+    summary: "The Albanese government announced it will legislate six mandatory obligations for frontier AI developers operating in Australia: maintain security controls, manage serious risks, allow independent evaluation, rapidly report incidents, publish safety frameworks, and adapt to updated standards."
+    source: "pm.gov.au"
+    url: "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+    kind: policy
+  - title: "METR audit finds Anthropic's AI development pace has doubled, driven by AI-assisted research"
+    summary: "An 11-week independent assessment by METR concluded Anthropic is improving model capabilities on well-specified tasks at roughly twice the pre-October 2025 rate (95% CI: 1.5–2.8×). About 80% of the acceleration is attributed to Anthropic using its own AI tools for coding, data processing, and experiment setup rather than compute scaling. METR saw no bottlenecks preventing further speedup."
+    source: "metr.org"
+    url: "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    kind: research
+  - title: "Meta launches Muse Ember, a 1M-token multimodal model priced for high-volume agent workflows"
+    summary: "Meta released Muse Ember, its smallest Muse-family model ($0.10/$0.50 per million input/output tokens) with a 1M-token context window and native text, image, audio, video, and PDF understanding. It targets repetitive agent tasks — tool calls, coding subtasks, routing, long-document parsing — and beats Claude Haiku 5.5 on cost per benchmark task. Available via Meta Model API and Muse Code."
+    source: "research.meta.ai"
+    url: "https://research.meta.ai/blog/muse-ember"
+    kind: model
+  - title: "OpenAI releases GPT-6 Cyber, a 'Critical'-rated cybersecurity model finding real zero-days"
+    summary: "OpenAI launched GPT-6 Cyber, a security-specialized model scoring 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber) while staying in scope 99.93% of the time. It uncovered 81 high-severity Firefox vulnerabilities and developed exploits for 948 Linux kernel flaws (588 previously unknown). Access is restricted to vetted Daybreak Red customers under the Preparedness Framework's highest cyber tier."
+    source: "openai.com"
+    url: "https://openai.com/index/introducing-gpt-6-cyber/"
+    kind: model
