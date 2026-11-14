@@ -1,0 +1,44 @@
+date: 2026-11-14
+headline: "Google launches fast everyday model; Anthropic cuts flagship price 20% and opens agent platform; OpenAI lets AI agents buy things"
+summary: "Google's new Gemini 4 Hydrogen matches its larger sibling Argon on independent tests at a fraction of the cost, while Anthropic makes its strongest models faster and cheaper while rolling out managed agents, personal finance, and spreadsheet tools. OpenAI takes a major step toward agent commerce with ChatGPT Wallet, and Google connects Wallet to Gemini for read-only financial insights."
+items:
+  - title: "Google releases Gemini 4 Hydrogen, a fast everyday model that edges out Argon on independent tests"
+    summary: "Google launched Gemini 4 Hydrogen on November 12, pricing it at $1.50 per million input tokens and $7.50 per million output across a 1-million-token context window. Artificial Analysis scored the new model 51 on its intelligence index, just above the larger Gemini 4 Argon at 50, while Google claims 2.5x speed over the previous Flash generation and a 57% score on Terminal-Bench coding tests."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    kind: model
+  - title: "Anthropic cuts Fable pricing by 20% with 5.2 release, launches managed agents and personal finance beta"
+    summary: "Claude Fable 5.2 and Mythos 5.2 dropped on November 9, with Fable priced at $8/M input and $40/M output (down from $10/$50) and output generation up to 30% faster."
+    source: "anthropic.com"
+    url: "https://anthropic.com/platform/release-notes"
+    kind: model
+  - title: "OpenAI launches ChatGPT Wallet enabling AI agents to make purchases with per-transaction biometric approval"
+    summary: "On November 13, OpenAI rolled out ChatGPT Wallet, letting its Dots personal agents buy items on a user's behalf after one-time card entry and Face ID or fingerprint approval for every transaction. The feature launches with American Express, Mastercard, and Visa; OpenAI says it takes no cut and agents never see raw card numbers, using network-issued payment tokens instead."
+    source: "openai.com"
+    url: "https://openai.com/blog/chatgpt-wallet"
+    kind: product
+  - title: "Google connects Google Wallet to Gemini for US users, adding read-only personal finance insights"
+    summary: "Google announced on November 13 that all US Gemini app users can now connect Google Wallet to access spending visualizations, forgotten subscription detection, and holiday budget planning. Users tag @Google Wallet in chat to query linked credit card and bank data (via Plaid); Gemini cannot move, invest, or manage funds, and the connection is fully user-controlled."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+    kind: product
+  - title: "Independent research finds Chinese AI labs trained DeepSeek, Moonshot, MiniMax, and Ant Group models on export-restricted Nvidia Blackwell GPUs"
+    summary: "Will DePue of Unemployment Labs analyzed model weight fingerprints and identified Nvidia Blackwell chip signatures in six leading Chinese models, confirming they were trained on hardware subject to US export controls. DePue's research (November 13) indicates roughly two million advanced accelerators entered China via smuggling networks, with Malaysia a common transit point for 275,000 Blackwell units alone."
+    source: "willdepue.net"
+    url: "https://willdepue.net"
+    kind: policy
+  - title: "Google DeepMind publishes AlphaGenome 2, a DNA model predicting variant effects across hundreds of human cell types"
+    summary: "DeepMind released AlphaGenome 2 on November 11, trained on over 107 million individual cell profiles across 68 tissues. The model identifies nearly twice as many causal variants as its predecessor (30% vs 16% on the TenK10K immune dataset) and adapts to new single-cell experiments without retraining."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/alphagenome-2/"
+    kind: research
+  - title: "OpenAI unveils Daybreak Red Team and Defense Factory, pairing autonomous pentesting with Codex-generated patches"
+    summary: "At its November 12 Cyber at the Frontier event, OpenAI introduced two early-access Daybreak products: Red Team deploys coordinated AI agents inside isolated, Guardian-reviewed environments to penetrate web applications, validate scanner findings, and re-test fixes; Defense Factory traces confirmed vulnerabilities through source repositories using Codex to draft reviewable patches, integrating with Wiz, Snyk, and…"
+    source: "openai.com"
+    url: "https://openai.com/business/solutions/cybersecurity/"
+    kind: product
+  - title: "Google and Samsung open Intelligent Eyewear preorders, Warby Parker and Gentle Monster frames shipping December 10"
+    summary: "Google announced November 12 that Intelligent Eyewear built with Samsung, Warby Parker, and Gentle Monster is now available for preorder, with sales starting December 10 in the US (and South Korea for Gentle Monster)."
+    source: "blog.google"
+    url: "https://blog.google/technology/google-ai/google-samsung-intelligent-eyewear-preorders/"
+    kind: product
