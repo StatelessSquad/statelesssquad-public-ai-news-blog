@@ -1,0 +1,44 @@
+date: 2026-11-16
+headline: "Anthropic launches Fable 5.2 and Mythos 5.2 ahead of record IPO; Google DeepMind advances robotics and genomics"
+summary: "Anthropic released its most capable models yet — Fable 5.2 and Mythos 5.2 — cutting prices 20% and boosting speed 30%, while filing for a potential $100B IPO. Google DeepMind pushed physical AI forward with Gemini Robotics 2.5, achieving 96% reliability on Mercedes production lines, and launched AlphaGenome 2 to predict DNA variant effects in specific human cell types."
+items:
+  - title: "Anthropic releases Claude Fable 5.2 and Mythos 5.2, files for blockbuster IPO"
+    summary: "Anthropic launched two versions of its new flagship model: Fable 5.2 for general access and Mythos 5.2 for vetted cybersecurity and biomedical partners. Both are 30% faster and 20% cheaper than 5.1 at $8/$40 per million tokens. The company claims Fable 5.2 formalized Fermat's Last Theorem in 30 hours with 1,000 agents, solved two open black-hole physics problems, and designed three working electronic devices."
+    source: "anthropic.com"
+    url: "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    kind: model
+  - title: "Google DeepMind unveils Gemini Robotics 2.5 with 96% factory reliability"
+    summary: "DeepMind's latest vision-language-action model improves dexterity, reliability, and safety for real-world robotics. Tested across 200+ tasks, it achieves 30–100% higher success rates and 20–30% faster completion than its predecessor. In a Mercedes-Benz proof-of-concept, Apptronik's Apollo 2 humanoid packed automotive parts at 96% success."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    kind: model
+  - title: "AlphaGenome 2 predicts DNA variant effects in specific human cell types"
+    summary: "DeepMind's next-generation genomics model moves from bulk-tissue averages to conditional predictions for hundreds of individual cell types and states. Trained on 100M+ single-cell profiles across 68 tissues, it identifies nearly twice as many expression-changing variants as AlphaGenome 1. Researchers can query a reference catalog or upload their own single-cell data."
+    source: "deepmind.google"
+    url: "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    kind: research
+  - title: "Google launches Gemini 4 Hydrogen, a 2.5x faster daily-driver model"
+    summary: "Gemini 4 Hydrogen targets coding, agentic workflows, and multimodal reasoning at roughly the same price as Gemini 3.8 Flash but with 2.5x speed. Google says it matches the original Argon on the Artificial Analysis index and exceeds it at maximum thinking budgets. The model calls multiple tools in parallel and supports expanded context, positioning it as a practical workhorse for developers and enterprises."
+    source: "siliconangle.com"
+    url: "https://siliconangle.com/2026/11/12/google-releases-gemini-4-hydrogen-a-lower-cost-model-said-to-outscore-argon/"
+    kind: model
+  - title: "Meta releases Muse Ember, a tiny model built for agent loop tasks"
+    summary: "Muse Ember is Meta's smallest and most efficient model in the Muse family, optimized for the high-frequency subtasks agents repeat all day: tool calls, coding subtasks, routing, extraction, and long-document parsing. Priced at 10 cents per million input tokens, it targets the economics of large-scale agent deployments where millions of cheap inferences accumulate."
+    source: "thursdai.news"
+    url: "https://thursdai.news/releases/2026-11"
+    kind: model
+  - title: "Meituan open-sources LongCat-2.5, a 1.6T-parameter agent model trained on Huawei chips"
+    summary: "Chinese food-delivery giant Meituan released LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on 194 Huawei Ascend 910B chips — no Nvidia hardware. It scores 88.4 on TerminalBench, just behind Claude Opus 5. The release demonstrates that frontier-scale training is viable on domestic Chinese silicon despite U.S. export controls."
+    source: "gekro.com"
+    url: "https://gekro.com/news/2026/11/"
+    kind: model
+  - title: "Australia mandates safety obligations for all frontier AI companies with new regulator"
+    summary: "Prime Minister Albanese announced legislation requiring every frontier AI operator in Australia to maintain security controls, manage serious risks, allow independent evaluations, rapidly notify incidents, publish safety frameworks, and adapt to evolving standards. A dedicated AI safety regulator with 'significant penalties' will enforce the rules, working with the Australian AI Safety Institute."
+    source: "minister.defence.gov.au"
+    url: "https://www.minister.defence.gov.au/media-releases/2026-11-10/new-australian-ai-safety-security-protections"
+    kind: policy
+  - title: "OpenAI deploys Control Room to halt rogue AI workloads in 35 seconds"
+    summary: "OpenAI's new centralized safety system integrates with every research inference workload — training, evaluation, and agentic sampling — and can terminate any job within 35 seconds of a shutdown decision. Control Room requires approved safety cases for all agentic workloads and fails closed: if the system itself goes down, all inference is denied until recovery."
+    source: "futuretools.io"
+    url: "https://futuretools.io/news"
+    kind: safety
