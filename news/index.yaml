@@ -1,5 +1,6 @@
 # The issues, newest first. The daily job adds one line here when it publishes a day.
 issues:
+  - { date: 2026-11-18, count: 5 }
   - { date: 2026-11-17, count: 8 }
   - { date: 2026-11-16, count: 8 }
   - { date: 2026-11-15, count: 7 }
