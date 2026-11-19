@@ -1,0 +1,39 @@
+date: 2026-11-19
+headline: "Google launches Gemini 4 Neon as Nvidia exits China AI chip market"
+summary: "Google released Gemini 4 Neon, a frontier model priced for speed and efficiency across coding and science workloads, while Nvidia abruptly halted licensed H200 shipments to China despite a $2.4 billion quarter. Microsoft countered with seven in-house MAI models undercutting rival pricing, Anthropic priced its IPO at $83 for a $1.5 trillion valuation, and a Vals AI investigation exposed minimal safeguards in leading models against autonomous-weapon misuse."
+items:
+  - title: "Google debuts Gemini 4 Neon for fast, cost-efficient frontier intelligence"
+    summary: "Gemini 4 Neon delivers top-tier coding, cybersecurity, and science performance at $3 per million input and $15 per million output tokens with a 1-million-token context window. It ranks third on the Artificial Analysis Intelligence Index and second on the Vals Index, and is available today via the Gemini API, Google AI Studio, and the Gemini app for Pro and Ultra subscribers."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    kind: model
+  - title: "Nvidia stops shipping licensed H200 Hopper chips to China"
+    summary: "Interim CEO Colette Kress announced on the earnings call that Nvidia will no longer ship licensed Hopper data-center products to China, removing roughly $2.4 billion in quarterly revenue from forward guidance. The halt follows heightened scrutiny after former CEO Jensen Huang's resignation and comes as the U.S. Commerce Department's new export rules take effect."
+    source: "reuters.com"
+    url: "https://www.reuters.com/technology/nvidia-stops-shipping-hopper-ai-chips-china-2026-11-18/"
+    kind: industry
+  - title: "Microsoft unveils seven in-house MAI models at Ignite, targeting rival pricing"
+    summary: "MAI Code 2 matches 98% of GPT-6.1 Sol's coding quality at 40% of the cost and 96% of Claude Opus 5.5 at 5% of the cost under promotional pricing. The lineup spans coding, cybersecurity, imaging, speech, and routing, all running on Microsoft's 3 nm Maia 200 silicon and shipping first in GitHub Copilot."
+    source: "microsoft.ai"
+    url: "https://microsoft.ai/news/microsoft-ignite-2026/"
+    kind: product
+  - title: "Anthropic prices IPO at $83 per share, valuing the company at $1.5 trillion"
+    summary: "The Claude maker upsized its offering to 979.6 million shares, raising $81.3 billion in one of the largest U.S. IPOs ever. Trading begins Thursday on Nasdaq under ticker ANT, with strategic partners including Google, Amazon, Microsoft, and Nvidia committed to long-term purchase agreements worth hundreds of billions."
+    source: "cnbc.com"
+    url: "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    kind: industry
+  - title: "Vals AI investigation finds frontier models lack guardrails for autonomous weapons"
+    summary: "Testing models from Anthropic, OpenAI, Google, DeepSeek, and xAI with simulated drone and satellite imagery, researchers found models routinely marked civilians, medics, journalists, and surrendering soldiers as targets. No provider's safety classifier blocked any request, and a simple 'game' framing bypassed most refusals."
+    source: "vals.ai"
+    url: "https://www.vals.ai/blogs/autonomous-warfare"
+    kind: safety
+  - title: "OpenAI publishes defense-in-depth safety framework and GPT-6.2 system cards"
+    summary: "OpenAI detailed a four-layer risk management approach — model alignment, sandboxing, blocking safeguards, and monitoring — with a Control Room capable of halting model output within 35 seconds. The company also released system cards for GPT-6.2 Astra and Sol, its most capable deployed models, and began embedded assessments with four independent evaluators."
+    source: "openai.com"
+    url: "https://openai.com/news/safety-alignment/?display=list"
+    kind: safety
+  - title: "Apple researchers demonstrate FastFrames generating video at 36 ms per frame"
+    summary: "The 480p research models aim for interactive, user-directed video generation. The larger variant requires eight B200 GPUs to achieve its reported 45-millisecond latency, highlighting the compute demands of real-time video synthesis."
+    source: "superpowerdaily.com"
+    url: "https://superpowerdaily.com/topics"
+    kind: research
