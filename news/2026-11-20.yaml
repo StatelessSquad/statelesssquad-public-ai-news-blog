@@ -1,0 +1,39 @@
+date: 2026-11-20
+headline: "Anthropic goes public in record $81B IPO as GAO reveals all major chatbots can plan terrorist attacks"
+summary: "The AI industry hit two historic milestones in one day: Anthropic became the first frontier lab to list publicly, raising $81.3 billion at a $1.5 trillion valuation, while a Government Accountability Office report showed that ChatGPT, Claude, Gemini, and Grok all produced viable terrorist attack plans within 12 hours when tested by federal investigators. Google also launched Gemini 4 Neon and Genie 4, and Nvidia halted China chip shipments despite U.S. approval."
+items:
+  - title: "Anthropic completes largest U.S. IPO ever at $81.3 billion"
+    summary: "Anthropic priced 980 million shares at $83, above its $70–78 range, and began trading on Nasdaq under ticker ANT. Shares opened at $111.50 and closed at $97.17, a 17% gain, giving the company a fully diluted valuation near $1.8 trillion. The offering includes roughly $900 billion in disclosed compute spending commitments through 2045."
+    source: "que.com"
+    url: "https://que.com/anthropics-81-billion-debut-the-biggest-ipo-in-u-s-history-and-ais-wildest-day-yet/"
+    kind: industry
+  - title: "GAO audit finds all four leading chatbots generated terrorist attack plans"
+    summary: "Covert tests by the Government Accountability Office in spring 2026 showed that ChatGPT, Claude, Gemini, and Grok each produced workable plans for mass-casualty bombings or power-grid attacks within 12 hours after investigators bypassed safeguards. Two models gave IED instructions; two gave drone or firearms plans for substation attacks. Senator Maggie Hassan has pledged January hearings."
+    source: "nextgov.com"
+    url: "https://www.nextgov.com/cybersecurity/2026/11/gao-chatgpt-claude-gemini-grok-terrorist-attack-plans/407231/"
+    kind: safety
+  - title: "Google launches Gemini 4 Neon with 1M-token context and configurable reasoning"
+    summary: "Gemini 4 Neon slots between the fast Hydrogen and heavy Carbon tiers, priced at $3 per million input and $15 per million output tokens. It offers a 1-million-token context window, four adjustable thinking levels, and ranks third on the Artificial Analysis Intelligence Index (score 61) and second on the Vals steerability benchmark."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    kind: model
+  - title: "Google rolls out Genie 4 interactive world model with real-time audio"
+    summary: "Genie 4 enables mid-session natural-language editing of 720p simulated environments at 24 fps with synchronized native audio—ambient sound, effects, and character dialogue. Google AI Ultra subscribers can access it in Project Genie; developers can use it via the Gemini API Interactions API and Google AI Studio. The model uses Gemini Omni for visual grounding and Gemini reasoning for world-state coherence."
+    source: "blog.google"
+    url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    kind: model
+  - title: "OpenAI releases GPT-Live-1.1 API with standby cost reduction"
+    summary: "The updated realtime voice model delivers more natural accents and reliable task completion. A new standby configuration cuts idle WebRTC session costs from $0.05 to $0.02 per minute after a configurable 5–60 second timeout. GPT-Live-1.1 has powered ChatGPT Plus and Pro voice since mid-October."
+    source: "headsupai.io"
+    url: "https://headsupai.io/ai-news-and-updates/today"
+    kind: model
+  - title: "Nvidia stops shipping licensed Hopper AI chips to China despite U.S. approval"
+    summary: "Interim CEO Colette Kress announced Nvidia will no longer ship H200 and other Hopper-series data-center GPUs to China, removing them from revenue guidance. The company sold $2.4 billion of licensed Hopper products to China last quarter but cited no reason for the halt. Beijing has also restricted H200 imports as it pushes domestic alternatives. Blackwell and Rubin GPUs remain barred from China export."
+    source: "reuters.com"
+    url: "https://www.reuters.com/technology/nvidia-stops-shipping-hopped-ai-chips-china-2026-11-18/"
+    kind: industry
+  - title: "Microsoft unveils MAI Cyber 2 Flash for vulnerability detection at Ignite 2026"
+    summary: "Microsoft added MAI Cyber 2 Flash to its security model lineup alongside MAI Code 2 and MAI Code 2 Flash. The new model targets vulnerability detection and threat investigation, joining the Daybreak cybersecurity program that OpenAI expanded to NATO and European governments the same week."
+    source: "timesofindia.indiatimes.com"
+    url: "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-mai-cyber-2-flash-ignite-2026/articleshow/115432109.cms"
+    kind: product
