@@ -1,0 +1,44 @@
+date: 2026-11-22
+headline: "Anthropic goes public in record IPO while AI claims proof of 167-year-old math problem"
+summary: "Anthropic's $81 billion IPO dominated financial headlines as shares surged on debut, while an Anthropic mathematician claimed Claude helped prove the Riemann Hypothesis — one of mathematics' most famous unsolved problems. California's governor proposed emergency AI shutdown powers, and major model releases from OpenAI, Google, and Microsoft reshaped the competitive landscape."
+items:
+  - title: "Anthropic completes record-breaking IPO on Nasdaq"
+    summary: "Anthropic priced 980 million shares at $83, raising roughly $81 billion in the largest AI public offering to date. Shares opened at $111.50 and closed the first session near $97, valuing the company above $100 billion. Co-founders Dario and Daniela Amodei rang the Nasdaq opening bell amid shareholder scrutiny over the firm's safety commitments."
+    source: "cnet.com"
+    url: "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/"
+    kind: industry
+  - title: "Anthropic mathematician claims AI-assisted proof of Riemann Hypothesis"
+    summary: "Levent Alpöge, a mathematician at Anthropic, announced he and the company's Claude model discovered a proof of the Riemann Hypothesis — a 167-year-old problem governing prime number distribution. The 17-million-line Lean code proof also extends to the Generalized Riemann Hypothesis. Independent verification is underway; Stanford's Ravi Vakil posted a separate human-only draft proof the same day."
+    source: "nature.com"
+    url: "https://www.nature.com/articles/d41586-026-03812-7"
+    kind: research
+  - title: "Newsom proposes emergency AI shutdown authority and independent audits"
+    summary: "California Governor Gavin Newsom released sweeping recommendations including state power to order immediate shutdown of dangerous AI models, mandatory independent safety audits with state-assigned evaluators, a 48-hour incident reporting window, and limits on recursive self-improving AI systems. The framework builds on SB 813 and AB 1405, which created certified auditor registries."
+    source: "gov.ca.gov"
+    url: "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/"
+    kind: policy
+  - title: "OpenAI launches GPT-6.2 Astra and Sol with 20% API price cut"
+    summary: "OpenAI released two new flagship variants: Astra for complex reasoning, coding, and design tasks, and Sol for everyday workflows. Astra scores 5.2 points higher than GPT-6 Astra on Agents' Last Exam at less than one-third the cost. API pricing dropped to $8/$40 per million tokens for Astra and $2/$10 for Sol. Both models meet new safety benchmarks against adversarial distillation."
+    source: "openai.com"
+    url: "https://openai.com/index/gpt-6-2-astra-and-sol/"
+    kind: model
+  - title: "Google rolls out Gemini 4 Neon at mid-tier pricing"
+    summary: "Google launched Gemini 4 Neon, a frontier reasoning model slotted between Hydrogen and Carbon, priced at $3/$15 per million tokens with a 1M-token context window. Neon ranks #1 on the Artificial Analysis Coding Agent Index at 58.6 and outperforms Opus 5.5 and GPT-6.2 Sol on 8 of 10 benchmarks. Google also previewed Stitch Loop, an always-on post-launch product agent."
+    source: "ashutoshai.com"
+    url: "https://ashutoshai.com/ai-compass/2026/11/18/"
+    kind: model
+  - title: "Microsoft unveils seven MAI models and Copilot Workspaces at Ignite"
+    summary: "At its Ignite conference, Microsoft introduced seven specialized MAI models including MAI Code 2 (96% of Claude Opus 5.5 performance at 5% cost), MAI Cyber 2 Flash, and MAI Image 2.7. The company launched Copilot Workspaces for human-agent collaboration, Agent 365 Business Analytics to link AI spend to outcomes, and an AI Transparency Initiative with 40+ partners."
+    source: "ianslive.in"
+    url: "https://ianslive.in/microsoft-rolls-out-agentic-ai-tools-copilot-workspaces-at-ignite-conference--20261118102923"
+    kind: product
+  - title: "New York Attorney General creates dedicated AI safety enforcement unit"
+    summary: "AG Letitia James announced the AI Safety, Standards, Enforcement, and Transparency (ASSET) Unit to enforce the RAISE Act, which takes effect January 2027. The law requires frontier AI developers to publish safety frameworks, report critical incidents within 72 hours, and issue public transparency reports. Penalties reach $3 million for repeated violations."
+    source: "ag.ny.gov"
+    url: "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-creation-ai-safety-standards-enforcement-and"
+    kind: policy
+  - title: "Palo Alto Networks acquires AI infrastructure startup Applied Compute for $4.5B"
+    summary: "Cybersecurity giant Palo Alto Networks agreed to acquire Applied Compute in an all-stock deal valued at $4.5 billion, aiming to integrate AI-driven security infrastructure. The deal follows a wave of mega-acquisitions including AMD's $8.2B purchase of World Labs and Marvell's $115B deal for Lumentum, signaling consolidation in AI infrastructure."
+    source: "americanbazaaronline.com"
+    url: "https://americanbazaaronline.com/2026/11/19/palo-alto-networks-bets-4-5-billion-on-ai-startup-applied-compute-as-shares-jump-9-492677/"
+    kind: industry
