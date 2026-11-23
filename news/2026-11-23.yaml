@@ -1,0 +1,44 @@
+date: 2026-11-23
+headline: "OpenAI chief scientist proposes industry-wide development limits tied to perplexity milestones"
+summary: "OpenAI took the unprecedented step of publishing its internal pretraining progress and calling for frontier labs to agree on shared safety limits, while major model releases from Ant Group, Microsoft, NVIDIA, and Sarvam reshaped the open-weight landscape. Meanwhile, OpenRouter's provider purge exposed data-handling gaps in the inference supply chain, and METR warned that evaluation methods are falling behind model capabilities."
+items:
+  - title: "OpenAI discloses pretraining metrics and calls for shared AI development limits"
+    summary: "Chief Scientist Jakub Pachocki published 'Perplexity and Intelligence,' revealing OpenAI's internal log-perplexity scores from GPT-3.5 (0.99) through GPT-6.2 Astra (below 0.8) and proposing that frontier labs adopt perplexity as a cross-lab metric with common limits not to be crossed until AI monitoring reaches concrete milestones such as a successor to chain-of-thought monitors."
+    source: "openai.com"
+    url: "https://openai.com/index/perplexity-and-intelligence/"
+    kind: policy
+  - title: "Ant Group open-sources two LingSante medical models under MIT license"
+    summary: "Ant Group's Afu health app released LingSante-3.1-flash (560B total, 25B active MoE, 1M-token context) for complex clinical reasoning and LingSante-3.1-air-VL (124B total, 5.5B active multimodal) for personal health tasks including medical imaging and skin analysis."
+    source: "huggingface.co"
+    url: "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+    kind: model
+  - title: "Microsoft unveils seven specialized MAI models at Ignite targeting price-performance"
+    summary: "Microsoft launched a family of first-party models: MAI Code 2 (98% of GPT-6.1 Sol coding quality at 40% cost), MAI Code 2 Flash (matches GPT-6 Luna at 65% cost), MAI Cyber 2 Flash (beats GPT-6 Astra on CyberGym-E2E at <2% cost), MAI Image 2.7 (tops Artificial Analysis image editing at 1/5 price), MAI Realtime 1, MAI Transcribe 2 (powers 10M monthly Dragon Copilot encounters), and Microsoft-Decision-1.1 for model…"
+    source: "microsoft.ai"
+    url: "https://microsoft.ai/news/microsoft-ignite-2026/"
+    kind: product
+  - title: "NVIDIA releases Alpamayo 2 Edge, a 2B vision-language-action model for autonomous driving"
+    summary: "NVIDIA launched Alpamayo 2 Edge, a 2.45B-parameter reasoning VLA model that runs on DRIVE AGX Thor hardware, delivering pixel-to-trajectory planning with Chain-of-Causation explanations at 160–190 ms latency."
+    source: "developer.nvidia.com"
+    url: "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits"
+    kind: model
+  - title: "OpenRouter off-boards three providers and revokes ZDR eligibility for 125 endpoints"
+    summary: "Following Dragos canary research that planted nearly two million unique prompts across inference providers, OpenRouter removed Novita, Phala, and Together from its marketplace and stripped Zero Data Retention status from 125 endpoints (including precautionary removals). The findings showed some providers logging or forwarding ZDR-marked requests, though OpenRouter itself was not breached."
+    source: "openrouter.ai"
+    url: "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    kind: safety
+  - title: "Sarvam AI releases Sarvam-105B-1711 Flash-Lite checkpoint with major Indian-language gains"
+    summary: "Bengaluru-based Sarvam published an upgraded 105B MoE checkpoint (10.3B active) under Apache 2.0, improving its eight-benchmark agent average from 42.6 to 73.9. Instruction following (IFBench) rose from 32.5 to 82.5, tool calling (Tau2) from 46.2 to 85.5, and Indic language performance from 30.1 to 79.1 — nearing Gemini 3.5 Flash-Lite at 80.9."
+    source: "sarvam.ai"
+    url: "https://www.sarvam.ai/blogs/sarvam-105b-1711"
+    kind: model
+  - title: "GitHub Copilot Fusion reaches general availability with multi-model orchestration"
+    summary: "GitHub made Copilot Fusion generally available across all Copilot plans, introducing a runtime router that selects models and execution patterns (Single, Cascade, Critique) based on developer-chosen effort levels (Standard, High, Max). Fusion draws from a pool including Claude Sonnet 5.5, GPT-6.1 Terra, and MAI-Code-2, with a 30% model-cost discount through November 30."
+    source: "docs.github.com"
+    url: "https://docs.github.com/en/copilot/concepts/models/copilot-fusion"
+    kind: product
+  - title: "METR warns AI capabilities are outpacing safety evaluation methods"
+    summary: "METR's Q4 2026 Capability Update found that models like Opus 5.5 and GPT-6 Astra are improving faster than researchers can reliably measure, with maximum task length doubling every 3.6 months — projecting a 50% success rate on 200-hour tasks by July 2027."
+    source: "themodelwire.com"
+    url: "https://themodelwire.com/article/metr-flags-evaluation-gap-as-frontier-models-outpace-safety-testing-01M81NQ7FYB6CPV22XS9A61Z5F"
+    kind: research
