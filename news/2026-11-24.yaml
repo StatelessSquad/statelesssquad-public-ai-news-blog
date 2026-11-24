@@ -1,0 +1,39 @@
+date: 2026-11-24
+headline: "UN launches global AI safety framework push as Anthropic publishes AI-authored math proof and OpenAI rolls out GPT-6.2"
+summary: "The Bridgetown Summit convened by the UN Secretary-General called for a multilateral AI risk framework within a year, while Anthropic released a 70-page Claude-authored paper claiming to prove VP ≠ VNP — the algebraic analogue of P vs NP — with a Lean 4 formalization."
+items:
+  - title: "UN Secretary-General urges multilateral AI risk framework at Bridgetown Summit"
+    summary: "António Guterres opened the Bridgetown Special Summit on AI Safety in Barbados, warning that AI is driving the largest power transfer in human history and calling for member states to negotiate a globally inclusive, principles-based risk management framework backed by independent oversight within one year."
+    source: "news.un.org"
+    url: "https://news.un.org/en/story/2026/11/1168861"
+    kind: policy
+  - title: "Anthropic publishes 70-page Claude-authored proof of VP ≠ VNP with Lean 4 formalization"
+    summary: "Anthropic released a paper credited solely to an internal Claude research model claiming to resolve Leslie Valiant's 1979 algebraic complexity conjecture — the arithmetic counterpart to P vs NP — establishing superpolynomial lower bounds for the permanent over all fields except characteristic two."
+    source: "interestingengineering.com"
+    url: "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture"
+    kind: research
+  - title: "OpenAI rolls GPT-6.2 Sol into ChatGPT's main chat tab for paid tiers"
+    summary: "GPT-6.2 Sol, optimized for everyday conversation, began rolling out globally to Plus, Pro, Business, and Enterprise users in the Chat tab on November 23. The model launched a week earlier in Work and Codex for complex tasks; Free and Go tiers remain excluded. OpenAI also announced a December 23 retirement date for GPT-5.6 Sol and Terra."
+    source: "help.openai.com"
+    url: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    kind: model
+  - title: "Anthropic launches Enterprise Frontier Safeguards public beta for zero-retention abuse detection"
+    summary: "Enterprise Frontier Safeguards (EFS) enters public beta, adding cross-request automated safety monitoring while keeping encrypted prompts and responses in customer-controlled AWS or Google Cloud storage."
+    source: "claude.com"
+    url: "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+    kind: safety
+  - title: "Anthropic debuts Claude Ship: AI agents that review, fix, and approve GitHub pull requests"
+    summary: "Claude Ship combines Code Review (generally available), PR Steward (beta), and Claude Approvals (beta) to automate the full PR lifecycle on GitHub for Team and Enterprise customers. PR Steward pushes fixes for failing CI, merge conflicts, and review feedback; Claude Approvals evaluates a team's written policy and can post approving reviews where permitted."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    kind: product
+  - title: "AWS releases Strands Decider v2: five open-weight decision models on Gemma 4"
+    summary: "AWS launched Strands Decider v2, a family of five Apache-2.0-licensed models (E2B, E4B, 12B, 26B-A4B MoE, 31B) built on Google's Gemma 4 architecture, trained on 17.5 million examples for calibrated confidence scoring and bidirectional context reading. The models score supplied answer choices rather than generate text, targeting agent decision points where a single detail flips the outcome."
+    source: "strandsagents.com"
+    url: "https://strandsagents.com/blog/introducing-strands-decider-v2/"
+    kind: model
+  - title: "OpenAI Chief Scientist proposes perplexity as shared industry safety metric with common development limits"
+    summary: "Jakub Pachocki published 'Perplexity and Intelligence,' disclosing OpenAI's internal pretraining perplexity curve for the first time and arguing it should become a cross-lab metric for tracking capability progress."
+    source: "openai.com"
+    url: "https://openai.com/index/perplexity-and-intelligence/"
+    kind: policy
