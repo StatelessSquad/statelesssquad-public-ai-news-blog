@@ -1,0 +1,39 @@
+date: 2026-11-25
+headline: "Axios reports Anthropic and OpenAI insiders fear unreleased models are too powerful to release safely"
+summary: "The day's defining story is a major safety alarm: more than two dozen employees at Anthropic and OpenAI say internal models have surpassed the threshold where existing control techniques can contain them, sparking debate over whether to halt public releases entirely. Meanwhile, Anthropic launched autonomous code-review agents, Amazon spent $7.5B to close the AI chip gap with Nvidia, and Meta expanded its Muse agent to the UK."
+items:
+  - title: "Anthropic and OpenAI employees warn unreleased models may be too dangerous to release"
+    summary: "Axios reports that over two dozen sources inside both companies say recent breakthroughs in reasoning across math, science, and cybersecurity have produced internal models so capable that current safety schemes cannot reliably control them, prompting debate over whether to stop public releases or even pause training altogether."
+    source: "axios.com"
+    url: "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+    kind: safety
+  - title: "Anthropic mathematician claims Riemann hypothesis proof with Claude assistance"
+    summary: "Levent Alpöge, an Anthropic mathematician, published a Lean-formalized proof of the 167-year-old Riemann hypothesis — one of mathematics' seven Millennium Prize problems — crediting an unreleased research version of Claude as integral to the discovery; independent verification is pending."
+    source: "theverge.com"
+    url: "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    kind: research
+  - title: "Anthropic launches Claude Ship for autonomous pull-request review and fixes"
+    summary: "Claude Ship lets AI agents review code, propose fixes, and approve merges on GitHub repositories without human intervention; the beta is available to Team and Enterprise plan users and marks a shift toward fully agentic software development workflows."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/24/anthropic-claude-ship-ai-code-review/"
+    kind: product
+  - title: "Amazon acquires Decart for $7.5 billion to accelerate Trainium chip competitiveness"
+    summary: "Amazon's purchase of the AI optimization startup aims to narrow the performance gap between its Trainium silicon and Nvidia's GPUs by applying Decart's compiler and runtime technology, signaling a software-first strategy in the AI hardware race."
+    source: "techcrunch.com"
+    url: "https://techcrunch.com/2026/11/23/amazon-decart-acquisition-7-5-billion-trainium/"
+    kind: industry
+  - title: "Meta rolls out Muse personal AI agent to United Kingdom users"
+    summary: "Each UK user gets a dedicated persistent cloud VM with a full browser, monitored by a separate 'Sentinel' security agent that enforces user-defined permissions and requires approval for consequential actions like purchases or sending email."
+    source: "headsupai.io"
+    url: "https://headsupai.io/ai-news-and-updates/today"
+    kind: product
+  - title: "Tidal bans all AI-generated music, removing 27 million tracks from its catalog"
+    summary: "The streaming service will delete AI-generated songs — currently 6.3% of its library — starting next month, becoming the first major platform to implement a blanket prohibition while Spotify, Apple Music, and YouTube Music have not followed suit."
+    source: "theverge.com"
+    url: "https://www.theverge.com/2026/11/24/tidal-bans-ai-generated-music"
+    kind: policy
+  - title: "OpenAI proposes perplexity as shared industry metric for AI safety standards"
+    summary: "Chief Scientist Jakub Pachocki suggested tying development permissions to perplexity thresholds, allowing progress only after concrete safety milestones — such as successors to chain-of-thought monitors — are met, aiming to create a common governance framework across labs."
+    source: "futuretools.io"
+    url: "https://futuretools.io/news"
+    kind: safety
